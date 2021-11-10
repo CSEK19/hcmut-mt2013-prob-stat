@@ -26,16 +26,16 @@ df['log.TMUs'] <- log(df['TMUs'])
 
 table = data.frame(
   Name = c('mean', 'median', 'sd', 'min', 'max'),
-  log.Boost_Clock = c(mean(df[,'log.Boost_Clock']), median(df[,'log.Boost_Clock']), sd(df[,'log.Boost_Clock']), min(df[,'log.Boost_Clock']), max(df[,'log.Boost_Clock'])),
-  log.Core_Speed = c(mean(df[,'log.Core_Speed']), median(df[,'log.Core_Speed']), sd(df[,'log.Core_Speed']), min(df[,'log.Core_Speed']), max(df[,'log.Core_Speed'])),
-  log.Max_Power = c(mean(df[,'log.Max_Power']), median(df[,'log.Max_Power']),        sd(df[,'log.Max_Power']), min(df[,'log.Max_Power']), max(df[,'log.Max_Power'])),
-  log.Memory = c(mean(df[,'log.Memory']), median(df[,'log.Memory']),           sd(df[,'log.Memory']), min(df[,'log.Memory']), max(df[,'log.Memory'])),
-  log.Memory_Bus = c(mean(df[,'log.Memory_Bus']), median(df[,'log.Memory_Bus']),           sd(df[,'log.Memory_Bus']), min(df[,'log.Memory_Bus']), max(df[,'log.Memory_Bus'])),
-  log.Memory_Speed = c(mean(df[,'log.Memory_Speed']), median(df[,'log.Memory_Speed']),           sd(df[,'log.Memory_Speed']), min(df[,'log.Memory_Speed']), max(df[,'log.Memory_Speed'])),
-  log.Release_Year = c(mean(df[,'log.Release_Year']), median(df[,'log.Release_Year']),           sd(df[,'log.Release_Year']), min(df[,'log.Release_Year']), max(df[,'log.Release_Year'])),
-  log.Release_Price = c(mean(df[,'log.Release_Price']), median(df[,'log.Release_Price']),           sd(df[,'log.Release_Price']), min(df[,'log.Release_Price']), max(df[,'log.Release_Price'])),
-  log.Shader = c(mean(df[,'log.Shader']), median(df[,'log.Shader']),           sd(df[,'log.Shader']), min(df[,'log.Shader']), max(df[,'log.Shader'])),
-  log.TMUs = c(mean(df[,'log.TMUs']), median(df[,'log.TMUs']),           sd(df[,'log.TMUs']), min(df[,'log.TMUs']), max(df[,'log.TMUs']))
+  log.Boost_Clock = c(mean(df[, 'log.Boost_Clock']), median(df[, 'log.Boost_Clock']), sd(df[, 'log.Boost_Clock']), min(df[, 'log.Boost_Clock']), max(df[, 'log.Boost_Clock'])),
+  log.Core_Speed = c(mean(df[, 'log.Core_Speed']), median(df[, 'log.Core_Speed']), sd(df[, 'log.Core_Speed']), min(df[, 'log.Core_Speed']), max(df[, 'log.Core_Speed'])),
+  log.Max_Power = c(mean(df[, 'log.Max_Power']), median(df[, 'log.Max_Power']), sd(df[, 'log.Max_Power']), min(df[, 'log.Max_Power']), max(df[, 'log.Max_Power'])),
+  log.Memory = c(mean(df[, 'log.Memory']), median(df[, 'log.Memory']), sd(df[, 'log.Memory']), min(df[, 'log.Memory']), max(df[, 'log.Memory'])),
+  log.Memory_Bus = c(mean(df[, 'log.Memory_Bus']), median(df[, 'log.Memory_Bus']), sd(df[, 'log.Memory_Bus']), min(df[, 'log.Memory_Bus']), max(df[, 'log.Memory_Bus'])),
+  log.Memory_Speed = c(mean(df[, 'log.Memory_Speed']), median(df[, 'log.Memory_Speed']), sd(df[, 'log.Memory_Speed']), min(df[, 'log.Memory_Speed']), max(df[, 'log.Memory_Speed'])),
+  log.Release_Year = c(mean(df[, 'log.Release_Year']), median(df[, 'log.Release_Year']), sd(df[, 'log.Release_Year']), min(df[, 'log.Release_Year']), max(df[, 'log.Release_Year'])),
+  log.Release_Price = c(mean(df[, 'log.Release_Price']), median(df[, 'log.Release_Price']), sd(df[, 'log.Release_Price']), min(df[, 'log.Release_Price']), max(df[, 'log.Release_Price'])),
+  log.Shader = c(mean(df[, 'log.Shader']), median(df[, 'log.Shader']), sd(df[, 'log.Shader']), min(df[, 'log.Shader']), max(df[, 'log.Shader'])),
+  log.TMUs = c(mean(df[, 'log.TMUs']), median(df[, 'log.TMUs']), sd(df[, 'log.TMUs']), min(df[, 'log.TMUs']), max(df[, 'log.TMUs']))
 )
 
 
