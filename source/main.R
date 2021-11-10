@@ -9,8 +9,7 @@ View(raw_data)
 data = raw_data %>% select('Manufacturer','Name','Architecture','Boost_Clock','Core_Speed','Max_Power','Memory','Memory_Bus', 'Memory_Speed', 'Release_Year', 'Release_Price','Shader','TMUs');
 View(data)
 
-df = data %>% filter(!( is.na(Manufacturer) | is.na(Name) | is.na(Architecture) | is.na(Boost_Clock) | is.na(Core_Speed) | is.na(Max_Power) |
-                         is.na(Memory) | is.na(Memory_Bus) | is.na(Memory_Speed) | is.na(Release_Year) | is.na(Release_Price) | is.na(Shader) | is.na(TMUs)))
+df = data %>% filter(!( is.na(Manufacturer) | is.na(Name) | is.na(Architecture) | is.na(Boost_Clock) | is.na(Core_Speed) | is.na(Max_Power) | is.na(Memory) | is.na(Memory_Bus) | is.na(Memory_Speed) | is.na(Release_Year) | is.na(Release_Price) | is.na(Shader) | is.na(TMUs)))
 View(df)
 
 df['log.Boost_Clock'] <- log(df['Boost_Clock'])
