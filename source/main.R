@@ -1,19 +1,20 @@
+library(caret)
 library(dplyr)
 library(ggplot2)
+library(ggpubr)
 library(magrittr)
 library(stats)
 library(VIM)
 
-
-# install.packages("VIM")
+#install.packages("ggpubr")
 
 
 raw_data = read.csv('data.csv')
 View(raw_data)
 
-data = raw_data %>% select('Manufacturer','Name','Architecture','Boost_Clock','Core_Speed','Max_Power','Memory','Memory_Bus', 'Memory_Speed', 'Release_Year', 'Release_Price','Shader','TMUs');
+data = raw_data %>% select('Manufacturer','Name','Architecture','Boost_Clock','Core_Speed','Max_Power','Memory','Memory_Bus', 'Memory_Speed', 'Release_Year', 'Release_Price','Shader','TMUs')
 View(data)
-
+summary(data)
 
 df_drop = data %>% filter(!( is.na(Manufacturer) | is.na(Name) | is.na(Architecture) | is.na(Boost_Clock) | is.na(Core_Speed) | is.na(Max_Power) | is.na(Memory) | is.na(Memory_Bus) | is.na(Memory_Speed) | is.na(Release_Year) | is.na(Release_Price) | is.na(Shader) | is.na(TMUs)))
 View(df_drop)
@@ -48,11 +49,12 @@ df['log.Release_Year'] <- log(df['Release_Year'])
 df['log.Release_Price'] <- log(df['Release_Price'])
 df['log.Shader'] <- log(df['Shader'])
 df['log.TMUs'] <- log(df['TMUs'])
+View(df)
 
 
 
 
-table = data.frame(
+stats_table = data.frame(
   Name = c('mean', 'median', 'sd', 'min', 'max'),
   log.Boost_Clock = c(mean(df[, 'log.Boost_Clock']), median(df[, 'log.Boost_Clock']), sd(df[, 'log.Boost_Clock']), min(df[, 'log.Boost_Clock']), max(df[, 'log.Boost_Clock'])),
   log.Core_Speed = c(mean(df[, 'log.Core_Speed']), median(df[, 'log.Core_Speed']), sd(df[, 'log.Core_Speed']), min(df[, 'log.Core_Speed']), max(df[, 'log.Core_Speed'])),
@@ -65,16 +67,43 @@ table = data.frame(
   log.Shader = c(mean(df[, 'log.Shader']), median(df[, 'log.Shader']), sd(df[, 'log.Shader']), min(df[, 'log.Shader']), max(df[, 'log.Shader'])),
   log.TMUs = c(mean(df[, 'log.TMUs']), median(df[, 'log.TMUs']), sd(df[, 'log.TMUs']), min(df[, 'log.TMUs']), max(df[, 'log.TMUs']))
 )
+View(stats_table)
+
+ftable(df[ ,'Release_Year'])
 
 
+hist(df$Release_Price, main="Histogram of Release_Price", xlab = "US Dollar", ylab = "Number of GPUs", col = rainbow(), breaks=100)
+hist(df$log.Release_Price, main = "Histogram of log.Release_Price", xlab = "log(US Dollar)", ylab = "Number of GPUs", col = rainbow(length(unique(df$log.Release_Price))), breaks=100)
 
-hist(df$log.Release_Price, main = "Distribution of Release_Price", xlab = "US Dollar", ylab = "Number of GPUs", col = rainbow(9))
-hist(df$Release_Year, main = "Distribution of Release_Year", xlab = "Year", ylab = "Number of GPUs", col = rainbow(9))
+hist(df$Release_Year, main="Histogram of Release_Year", xlab = "Year", ylab = "Number of GPUs", col = rainbow(20), breaks = 20, xlim=c(1998,2017))
+hist(df$log.Release_Year, main = "Histogram of log.(Release_Year)", xlab = "log(Year)", ylab = "Number of GPUs", col = rainbow(20), breaks = 20)
+
+boxplot(df$log.Release_Price ~ df$log.Shader , main="Boxplot of log.Release_Price and log.Shader", ylab = "log.Release_Price", xlab = "log.Shader", col = rainbow (11))
+boxplot(df$log.Memory ~ df$log.Memory_Bus, main = "Boxplot of log.Memory and log.Memory_Bus", ylab = "log.Memory", xlab = "log.Memory_Bus", col = rainbow (17))
+boxplot(df$log.Memory_Speed ~ df$log.Memory_Bus, main = "Boxplot of log.Memory_Speed and log.Memory_Bus", ylab = "log.Memory_Speed", xlab = "log.Memory_Bus", col = rainbow (17))
+
+pairs(df[,c("log.Boost_Clock","log.Release_Price")], main = "Price and Boost Clock", col = "lightskyblue")
+pairs(df[,c("log.Core_Speed","log.Release_Price")], main = "Price and Core Speed", col = "chartreuse4")
+pairs(df[,c("log.Max_Power","log.Release_Price")], main = "Price and Max Power", col = "aquamarine3")
+pairs(df[,c("log.Memory","log.Release_Price")], main = "Price and Memory", col = "coral4")
+pairs(df[,c("log.Memory_Bus","log.Release_Price")], main = "Price and Memory Bus", col = "indianred1")
+pairs(df[,c("log.Memory_Speed","log.Release_Price")], main = "Price and Memory Speed", col = "darkorchid")
+pairs(df[,c("log.Release_Year","log.Release_Price")], main = "Price and Release Year", col = "deeppink")
+pairs(df[,c('log.TMUs',"log.Release_Price")], main = "Price and TMUs", col = "lightgoldenrod3")
+pairs(df[,c('log.TMUs',"log.Release_Price")], main = "Price and TMUs", col = "steelblue3")
 
 
+pairs(df[,c('log.Memory','log.Memory_Bus', 'log.Memory_Speed', 'log.Release_Price')], main = "Pairs plot of Memory and Price", col = "steelblue3")
+pairs(df[,c('log.Boost_Clock','log.Core_Speed','log.Max_Power', 'log.Release_Price')], main = "Pairs plot of Speed/Power and Price", col = "steelblue3")
+pairs(df[,c('log.Shader','log.TMUs', 'log.Release_Price')], main = "Pairs plot of Rendering Unit and Price", col = "steelblue3")
+
+pairs(df[,c('log.Boost_Clock','log.Core_Speed','log.Max_Power','log.Memory','log.Memory_Bus', 'log.Memory_Speed', 'log.Release_Year', 'log.Release_Price','log.Shader','log.Shader')], main = "Pairs plot of all variables (log)", col = "steelblue3")
 
 lmPrice = lm(log.Release_Price ~ log.Boost_Clock + log.Core_Speed + log.Max_Power + log.Memory + log.Memory_Bus + log.Memory_Speed + log.Shader + log.TMUs, df)
 summary(lmPrice)
+confint(lmPrice)
+
+confint(lmPrice, level = 0.95)
 
 lmPriceNoMem = lm(log.Release_Price ~ log.Boost_Clock + log.Core_Speed + log.Max_Power + log.Memory_Bus + log.Memory_Speed + log.Shader + log.TMUs, df)
 summary(lmPriceNoMem)
@@ -82,16 +111,34 @@ summary(lmPriceNoMem)
 lmPrice_Mem = lm(log.Release_Price ~ log.Memory, df[, c('log.Release_Price', 'log.Memory')])
 anova(lmPrice_Mem)
 
-plot(lmPrice$fitted.values, lmPrice$residuals, col = "blue", xlab = "fitted.values", ylab = "residuals")
+glance(lmPrice) %>% select(adj.r.squared, sigma, p.value)
+sigma(lmPrice)/mean(df$log.Release_Price)
 
 
+plot(lmPrice$fitted.values, lmPrice$residuals, col = "black", xlab = "Fitted values", ylab = "Residuals")
 
 
-Price.graph <-ggplot(lmPrice, aes(x = log.Release_Price, y = log.Memory)) + geom_point()
-Price.graph
+par(mfrow=c(2,2))
+plot(lmPrice, col = "black")
+par(mfrow=c(1,1))
 
-Price.graph <- Price.graph + geom_smooth(method = "lm", col = "blue")
-Price.graph
+par(mfrow=c(1, 2))
+termplot(lmPrice)
+par(mfrow=c(1,1))
+
+
+price.graph <-ggplot(df, aes(x = log.Release_Price, y = log.Memory, color = log.Max_Power)) + geom_point() + theme_classic()
+price.graph <- price.graph + geom_smooth(method = "lm", col = "red")
+price.graph
+
+
+price_2.graph <-ggplot(df, aes(x = log.Release_Price, y = log.Boost_Clock, color = log.Memory_Speed)) + geom_point() + theme_classic()
+price_2.graph <- price_2.graph + geom_smooth(method = "lm", col = "red")
+price_2.graph
+
+price_3.graph <-ggplot(df, aes(x = log.Release_Price, y = Core_Speed, color = log.Memory_Bus)) + geom_point() + theme_classic()
+price_3.graph <- price_3.graph + geom_smooth(method = "lm", col = "red")
+price_3.graph
 
 ggplot(df) + geom_bar(aes(x = Release_Year), stat = "count", fill = rainbow(6)) + scale_x_continuous(breaks = pretty(df$Release_Year, n = 10)) + xlab("Year") + ylab("Number of GPUs")
 
@@ -144,5 +191,8 @@ lmPrice = lm(log.Release_Price ~ log.Boost_Clock + log.Core_Speed + log.Max_Powe
 
 exp(predict(lmPrice, spec_RTX_3090, interval = "confidence", level = 0.95))
 
+
+
+model <- train(medv ~ ., data = df, method = 'knn')
 
 
