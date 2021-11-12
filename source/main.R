@@ -1,4 +1,4 @@
-library(caret)
+library(car)
 library(dplyr)
 library(ggplot2)
 library(ggpubr)
@@ -101,9 +101,16 @@ pairs(df[,c('log.Boost_Clock','log.Core_Speed','log.Max_Power','log.Memory','log
 
 lmPrice = lm(log.Release_Price ~ log.Boost_Clock + log.Core_Speed + log.Max_Power + log.Memory + log.Memory_Bus + log.Memory_Speed + log.Shader + log.TMUs, df)
 summary(lmPrice)
+
+
+
+
+vif(lmPrice)
+
+
 confint(lmPrice)
 
-confint(lmPrice, level = 0.95)
+
 
 lmPriceNoMem = lm(log.Release_Price ~ log.Boost_Clock + log.Core_Speed + log.Max_Power + log.Memory_Bus + log.Memory_Speed + log.Shader + log.TMUs, df)
 summary(lmPriceNoMem)
@@ -191,8 +198,5 @@ lmPrice = lm(log.Release_Price ~ log.Boost_Clock + log.Core_Speed + log.Max_Powe
 
 exp(predict(lmPrice, spec_RTX_3090, interval = "confidence", level = 0.95))
 
-
-
-model <- train(medv ~ ., data = df, method = 'knn')
 
 
