@@ -8,6 +8,8 @@ library(VIM)
 
 #install.packages("ggpubr")
 
+# ----------------------------------------------------------------------------------------------------------------------
+
 
 raw_data = read.csv('data.csv')
 View(raw_data)
@@ -71,6 +73,8 @@ View(stats_table)
 
 ftable(df[ ,'Release_Year'])
 
+# ----------------------------------------------------------------------------------------------------------------------
+
 
 hist(df$Release_Price, main="Histogram of Release_Price", xlab = "US Dollar", ylab = "Number of GPUs", col = rainbow(), breaks=100)
 hist(df$log.Release_Price, main = "Histogram of log.Release_Price", xlab = "log(US Dollar)", ylab = "Number of GPUs", col = rainbow(length(unique(df$log.Release_Price))), breaks=100)
@@ -98,6 +102,41 @@ pairs(df[,c('log.Boost_Clock','log.Core_Speed','log.Max_Power', 'log.Release_Pri
 pairs(df[,c('log.Shader','log.TMUs', 'log.Release_Price')], main = "Pairs plot of Rendering Unit and Price", col = "steelblue3")
 
 pairs(df[,c('log.Boost_Clock','log.Core_Speed','log.Max_Power','log.Memory','log.Memory_Bus', 'log.Memory_Speed', 'log.Release_Year', 'log.Release_Price','log.Shader','log.Shader')], main = "Pairs plot of all variables (log)", col = "steelblue3")
+
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+
+# One-way ANOVA
+aovCore_Speed <- select(df, Manufacturer, log.Core_Speed)
+ggqqplot(aovCore_Speed$log.Core_Speed)
+ggqqplot(aovCore_Speed$log.Core_Speed, palette = c("#00AFBB", "#E7B800"))
+aov_one <- aov(log.Core_Speed ~ Manufacturer, data = aovCore_Speed)
+aov_one
+summary(aov_one)
+leveneTest(log.Core_Speed ~ Manufacturer, aovCore_Speed, center = mean)
+oneway.test(log.Core_Speed ~ Manufacturer, data=aovCore_Speed)
+
+# Two-way ANOVA
+quantile(df$log.Release_Price, probs = seq(0, 1, 1/3))
+# GPU_budget = df[which(df$log.Release_Price >= log(0) & df$log.Release_Price < log(200)),]
+# GPU_midrange = df[which(df$log.Release_Price >= log(200) & df$log.Release_Price < log(600)),]
+# GPU_highend = df[which(df$log.Release_Price >= log(600) ),]
+df$Label <- cut(df$log.Release_Price, c(log(0), log(200), log(600), log(15000)), labels=c("Budget", "Midrange", "Highend"), include.lowest=T)
+ftable(df$Manufacturer)
+aov_two <- aov(log.Core_Speed ~ Manufacturer + Label, data = df)
+aov_two
+summary(aov_two)
+TukeyHSD(aov_two)
+
+
+# Chi-squared
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# Linear regression model
 
 lmPrice = lm(log.Release_Price ~ log.Boost_Clock + log.Core_Speed + log.Max_Power + log.Memory + log.Memory_Bus + log.Memory_Speed + log.Shader + log.TMUs, df)
 summary(lmPrice)
@@ -149,6 +188,8 @@ price_3.graph
 
 ggplot(df) + geom_bar(aes(x = Release_Year), stat = "count", fill = rainbow(6)) + scale_x_continuous(breaks = pretty(df$Release_Year, n = 10)) + xlab("Year") + ylab("Number of GPUs")
 
+# ----------------------------------------------------------------------------------------------------------------------
+
 
 # Testing
 
@@ -199,4 +240,119 @@ lmPrice = lm(log.Release_Price ~ log.Boost_Clock + log.Core_Speed + log.Max_Powe
 exp(predict(lmPrice, spec_RTX_3090, interval = "confidence", level = 0.95))
 
 
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# Exponential model
+df = df_knn
+
+year_arr <- unique(sort(strtoi(df$Release_Year)))
+
+memory_arr_mean = data.frame(df %>% group_by(Release_Year) %>% summarise_at(vars(Memory), list(name = mean)))
+memory_arr_mean = array(memory_arr_mean$name)
+
+memory_arr_median = data.frame(df %>% group_by(Release_Year) %>% summarise_at(vars(Memory), list(name = median)))
+memory_arr_median = array(memory_arr_median$name)
+
+calculateMooresValue <- function(x, y_trans) {
+  return(memory_arr_median[1] * 2**((x-y_trans)/2))
+}
+
+exponentialCurve <- function(x, a, b, c) {
+  return(a*2**((x-c)*b))
+}
+
+y_pred_moore_law_teoretic = calculateMooresValue(year_arr, year_arr[1])
+popt <- c(1.04294249e+01, 3.55525954e-01, 1.99040139e+03)
+y_pred_moore_law_fitted = exponentialCurve(year_arr, popt[1], popt[2], popt[3])
+
+
+plot(x=year_arr, y=log(memory_arr_mean),type = "o",col = "skyblue3", xlab = "Year", ylab = "GPU Memory", main = "GPU Memory and Year of Release (logaritmic scale)")
+lines(x=year_arr, y=log(memory_arr_median), type = "o", col = "sienna2")
+lines(x=year_arr, y=log(y_pred_moore_law_teoretic), type = "o", col = "slateblue2")
+lines(x=year_arr, y=log(y_pred_moore_law_fitted), type = "o", col = "seashell4")
+
+df_extra<-data.frame(Release_Year = year_arr, Memory_Mean = memory_arr_mean, Memory_Median = memory_arr_median, Moore_Teoretic = y_pred_moore_law_teoretic, Moore_Fitted = y_pred_moore_law_fitted)
+
+
+ggplot(df_extra, aes(x = Release_Year, y = log(Memory_Mean))) +  theme_classic() + geom_point(size = 1) + 
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 20)) +
+  theme(legend.position='bottom', plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + ylab("GPU Memory") + labs(colour="") + 
+  ggtitle("Exponential graph for GPU Memory and Year of Release (logaritmic scale)") + 
+  geom_line(aes(y = log(Memory_Mean), colour = "Mean"), n=1000) + 
+  geom_line(aes(y = log(Memory_Median), colour = "Median"), n=1000) +
+  geom_line(aes(y = log(Moore_Teoretic), colour = "Moore's law teoretic"), n=1000) +
+  geom_line(aes(y = log(Moore_Fitted), colour = "Moore's law fitted"), n=1000) 
+
+
+ggplot(df_extra, aes(x = Release_Year, y = log(Memory_Mean))) +  theme_classic() +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 20)) +
+  theme(legend.position='bottom', plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + ylab("GPU Memory") + labs(colour="") + 
+  ggtitle("Exponential graph for GPU Memory and Year of Release (original scale)") + 
+  geom_line(aes(y = Memory_Mean, colour = "Mean"), n=1000) + 
+  geom_line(aes(y = Memory_Median, colour = "Median"), n=1000) +
+  geom_line(aes(y = Moore_Teoretic, colour = "Moore's law teoretic"), n=1000) +
+  geom_line(aes(y = Moore_Fitted, colour = "Moore's law fitted"), n=1000) 
+
+# Polynomial 
+
+
+poly_2_mean <- lm(Memory_Mean ~ Release_Year + I(Release_Year^2), data=df_extra)
+summary(poly_2_mean)
+coef(poly_2_mean)
+
+year_df <- data.frame(Release_Year = year_arr)
+y_pred_lin_reg_2 <- predict(poly_2_mean, year_df, type="response")
+df_extra$Y_pred_lin_reg_2 <- y_pred_lin_reg_2
+
+poly_3_mean <- lm(Memory_Mean ~ Release_Year + I(Release_Year^2) + I(Release_Year^3), data=df_extra)
+summary(poly_3_mean)
+poly_3_mean$coefficients[1:4] <- c(-17128661108.085476, 2.56615577e+07, -1.28150909e+04,  2.13323868e+00)
+poly_3_mean$rank <- c(4)
+y_pred_lin_reg_3 <- predict(poly_3_mean, year_df, type="response")
+df_extra$Y_pred_lin_reg_3 <- y_pred_lin_reg_3
+
+
+# Old graph
+ggplot(df_extra, aes(x = Release_Year, y = log(Memory_Mean))) +  theme_classic() + geom_point(size = 1) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 20)) +
+  theme(legend.position='bottom', plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + ylab("GPU Memory") + labs(colour="") + 
+  ggtitle("Polynomial graph for GPU Memory and Year of Release (logaritmic scale)") + 
+  stat_smooth(method = lm, formula = y ~ poly(x, 2, raw = F), se=F, col = 'darkseagreen', n=1000) +
+  stat_smooth(method = lm, formula = y ~ poly(x, 3, raw = F), se=F, col = 'darkgoldenrod1', n=1000) +
+  geom_smooth(method = lm, formula = y ~ poly(x,2), aes(y = log(Moore_Teoretic), colour = "Moore's law teoretic"), se=F, n =1000) +
+  geom_smooth(method = lm, formula = y ~ poly(x,2), aes(y = log(Moore_Fitted), colour = "Moore's law fitted"), se=F, n=1000) 
+
+
+
+ggplot(df_extra, aes(x = Release_Year, y = log(Memory_Mean))) +  theme_classic() +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 20)) +
+  theme(legend.position='bottom', plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + ylab("GPU Memory") + labs(colour="") + 
+  ggtitle("teoreticPolynomial graph for GPU Memory and Year of Release (original scale)") + 
+  geom_line(aes(y = y_pred_lin_reg_2, colour = "2nd degree polynomial"), n=1000) + 
+  geom_line(aes(y = y_pred_lin_reg_3, colour = "3rd degree polynomial"), n=1000) +
+  geom_line(aes(y = Moore_Teoretic, colour = "Moore's law teoretic"), n=1000) +
+  geom_line(aes(y = Moore_Fitted, colour = "Moore's law fitted"), n=1000)
+
+
+
+ggplot(df_extra, aes(x = Release_Year, y = log(Memory_Mean))) +  theme_classic() +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 20)) +
+  theme(legend.position='bottom', plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + ylab("GPU Memory") + labs(colour="") + 
+  ggtitle("Exponential model vs Polynomial model") + 
+  geom_line(aes(y = y_pred_lin_reg_2, colour = "2nd degree polynomial"), n=1000) + 
+  geom_line(aes(y = y_pred_lin_reg_3, colour = "3rd degree polynomial"), n=1000) +
+  geom_line(aes(y = Moore_Teoretic, colour = "Moore's law teoretic"), n=1000) +
+  geom_line(aes(y = Moore_Fitted, colour = "Moore's law fitted"), n=1000) +
+  geom_line(aes(y = Memory_Mean, colour = "Mean"), n=1000) + 
+  geom_line(aes(y = Memory_Median, colour = "Median"), n=1000) 
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+  
 
