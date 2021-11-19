@@ -75,12 +75,19 @@ ftable(df[ ,'Release_Year'])
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-
-hist(df$Release_Price, main="Histogram of Release_Price", xlab = "US Dollar", ylab = "Number of GPUs", col = rainbow(), breaks=100)
+hist(df$Release_Price, main="Histogram of Release_Price", xlab = "US Dollar", ylab = "Number of GPUs", col = rainbow(20), breaks=100)
 hist(df$log.Release_Price, main = "Histogram of log.Release_Price", xlab = "log(US Dollar)", ylab = "Number of GPUs", col = rainbow(length(unique(df$log.Release_Price))), breaks=100)
 
+
 hist(df$Release_Year, main="Histogram of Release_Year", xlab = "Year", ylab = "Number of GPUs", col = rainbow(20), breaks = 20, xlim=c(1998,2017))
-hist(df$log.Release_Year, main = "Histogram of log.(Release_Year)", xlab = "log(Year)", ylab = "Number of GPUs", col = rainbow(20), breaks = 20)
+lines(density(df$Release_Year))
+
+ggplot(df, aes(x = Release_Year, y=..density..)) + theme_classic() +  geom_density() +
+  geom_histogram(bins = 50, fill = 'steelblue', color = 'black') + 
+  labs(title = 'Histogram of Release_Year', x = 'Year', y = 'Frequency') +
+  theme(legend.position='bottom', plot.title = element_text(hjust = 0.5)) 
+
+
 
 boxplot(df$log.Release_Price ~ df$log.Shader , main="Boxplot of log.Release_Price and log.Shader", ylab = "log.Release_Price", xlab = "log.Shader", col = rainbow (11))
 boxplot(df$log.Memory ~ df$log.Memory_Bus, main = "Boxplot of log.Memory and log.Memory_Bus", ylab = "log.Memory", xlab = "log.Memory_Bus", col = rainbow (17))
@@ -133,7 +140,18 @@ TukeyHSD(aov_two)
 
 
 # Chi-squared
+HighCoreSpeed <- filter(df, log.Core_Speed > 7)
+LowCoreSpeed <- filter(df, log.Core_Speed < 7)
 
+HighCoreSpeed  = c(80,530,8)
+LowCoreSpeed  = c(373,2362,12)
+chisq.test(data.frame(HighCoreSpeed ,LowCoreSpeed))
+
+# Z-test
+
+df_z = df %>% select('Manufacturer','log.Release_Price')
+df_ztest = df_z %>% filter(dfz$Manufacturer == 'Nvidia' | dfz$Manufacturer == 'AMD')
+ggqqplot(df_ztest$log.Release_Price)
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Linear regression model
@@ -148,7 +166,6 @@ vif(lmPrice)
 
 
 confint(lmPrice)
-
 
 
 lmPriceNoMem = lm(log.Release_Price ~ log.Boost_Clock + log.Core_Speed + log.Max_Power + log.Memory_Bus + log.Memory_Speed + log.Shader + log.TMUs, df)
@@ -171,6 +188,14 @@ par(mfrow=c(1,1))
 par(mfrow=c(1, 2))
 termplot(lmPrice)
 par(mfrow=c(1,1))
+
+
+ggplot(df, aes(x = lmPrice$residuals, y=..density..)) + theme_classic() +  geom_density() +
+  geom_histogram(bins = 100, fill = 'steelblue', color = 'black') + 
+  labs(title = 'Histogram of Residuals', x = 'Residuals', y = 'Frequency') +
+  theme(legend.position='bottom', plot.title = element_text(hjust = 0.5)) 
+
+
 
 
 price.graph <-ggplot(df, aes(x = log.Release_Price, y = log.Memory, color = log.Max_Power)) + geom_point() + theme_classic()
@@ -354,6 +379,7 @@ ggplot(df_extra, aes(x = Release_Year, y = log(Memory_Mean))) +  theme_classic()
 
 # ----------------------------------------------------------------------------------------------------------------------
 
+exp(predict(poly_3_mean, spec_RTX_3090, interval = "confidence", level = 0.95))
 
 
 
