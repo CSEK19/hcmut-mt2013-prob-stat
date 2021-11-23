@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{poly\PYGZus{}3\PYGZus{}mean} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{lm}\PYG{p}{(}\PYG{n}{Memory\PYGZus{}Mean} \PYG{o}{\PYGZti{}} \PYG{n}{Release\PYGZus{}Year} \PYG{o}{+} \PYG{n+nf}{I}\PYG{p}{(}\PYG{n}{Release\PYGZus{}Year}\PYG{o}{\PYGZca{}}\PYG{l+m}{2}\PYG{p}{)} \PYG{o}{+} \PYG{n+nf}{I}\PYG{p}{(}\PYG{n}{Release\PYGZus{}Year}\PYG{o}{\PYGZca{}}\PYG{l+m}{3}\PYG{p}{),} \PYG{n}{data}\PYG{o}{=}\PYG{n}{df\PYGZus{}e}\PYG{p}{)}
+\PYG{n+nf}{summary}\PYG{p}{(}\PYG{n}{poly\PYGZus{}3\PYGZus{}mean}\PYG{p}{)}
+\end{Verbatim}

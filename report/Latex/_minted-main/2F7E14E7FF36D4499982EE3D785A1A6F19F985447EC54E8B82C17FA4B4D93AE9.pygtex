@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{y\PYGZus{}pred\PYGZus{}moore\PYGZus{}law\PYGZus{}teoretic} \PYG{o}{=} \PYG{n+nf}{calculateMooresValue}\PYG{p}{(}\PYG{n}{year\PYGZus{}arr}\PYG{p}{,} \PYG{n}{year\PYGZus{}arr}\PYG{p}{[}\PYG{l+m}{1}\PYG{p}{])}
+\PYG{n}{popt} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1.04294249e+01}\PYG{p}{,} \PYG{l+m}{3.55525954e\PYGZhy{}01}\PYG{p}{,} \PYG{l+m}{1.99040139e+03}\PYG{p}{)}
+\PYG{n}{y\PYGZus{}pred\PYGZus{}moore\PYGZus{}law\PYGZus{}fitted} \PYG{o}{=} \PYG{n+nf}{exponentialCurve}\PYG{p}{(}\PYG{n}{year\PYGZus{}arr}\PYG{p}{,} \PYG{n}{popt}\PYG{p}{[}\PYG{l+m}{1}\PYG{p}{],} \PYG{n}{popt}\PYG{p}{[}\PYG{l+m}{2}\PYG{p}{],} \PYG{n}{popt}\PYG{p}{[}\PYG{l+m}{3}\PYG{p}{])}
+\end{Verbatim}

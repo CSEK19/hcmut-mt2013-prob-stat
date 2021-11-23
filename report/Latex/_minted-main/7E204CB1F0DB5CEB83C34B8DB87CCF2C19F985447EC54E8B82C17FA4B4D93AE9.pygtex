@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{lmPrice} \PYG{o}{=} \PYG{n+nf}{lm}\PYG{p}{(}\PYG{n}{log.Release\PYGZus{}Price} \PYG{o}{\PYGZti{}} \PYG{n}{log.Boost\PYGZus{}Clock} \PYG{o}{+} \PYG{n}{log.Core\PYGZus{}Speed} \PYG{o}{+} \PYG{n}{log.Max\PYGZus{}Power} \PYG{o}{+} \PYG{n}{log.Memory} \PYG{o}{+} \PYG{n}{log.Memory\PYGZus{}Bus} \PYG{o}{+} \PYG{n}{log.Memory\PYGZus{}Speed} \PYG{o}{+} \PYG{n}{log.Shader} \PYG{o}{+} \PYG{n}{log.TMUs}\PYG{p}{,} \PYG{n}{df}\PYG{p}{)}
+\PYG{n+nf}{summary}\PYG{p}{(}\PYG{n}{lmPrice}\PYG{p}{)}
+\end{Verbatim}

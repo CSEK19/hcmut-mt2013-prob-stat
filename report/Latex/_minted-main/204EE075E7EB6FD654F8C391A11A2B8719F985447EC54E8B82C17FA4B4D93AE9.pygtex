@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{exp}\PYG{p}{(}\PYG{n+nf}{predict}\PYG{p}{(}\PYG{n}{lmPrice}\PYG{p}{,} \PYG{n}{predict\PYGZus{}Data}\PYG{p}{,} \PYG{n}{interval} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}confidence\PYGZdq{}}\PYG{p}{,} \PYG{n}{level} \PYG{o}{=} \PYG{l+m}{0.95}\PYG{p}{))}
+\end{Verbatim}

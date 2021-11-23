@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{df}\PYG{o}{\PYGZdl{}}\PYG{n}{Label} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{cut}\PYG{p}{(}\PYG{n}{df}\PYG{o}{\PYGZdl{}}\PYG{n}{log.Release\PYGZus{}Price}\PYG{p}{,} \PYG{n+nf}{c}\PYG{p}{(}\PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{),} \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{200}\PYG{p}{),} \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{600}\PYG{p}{),} \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{15000}\PYG{p}{)),} \PYG{n}{labels}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Budget\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}Midrange\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}Highend\PYGZdq{}}\PYG{p}{),} \PYG{n}{include.lowest}\PYG{o}{=}\PYG{n+nb+bp}{T}\PYG{p}{)}
+\end{Verbatim}

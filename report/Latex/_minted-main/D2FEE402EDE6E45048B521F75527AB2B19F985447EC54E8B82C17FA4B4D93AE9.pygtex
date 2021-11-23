@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{year\PYGZus{}arr} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{unique}\PYG{p}{(}\PYG{n+nf}{sort}\PYG{p}{(}\PYG{n+nf}{strtoi}\PYG{p}{(}\PYG{n}{df}\PYG{o}{\PYGZdl{}}\PYG{n}{Release\PYGZus{}Year}\PYG{p}{)))}
+
+\PYG{n}{memory\PYGZus{}arr\PYGZus{}mean} \PYG{o}{=} \PYG{n+nf}{data.frame}\PYG{p}{(}\PYG{n}{df} \PYG{o}{\PYGZpc{}\PYGZgt{}\PYGZpc{}} \PYG{n+nf}{group\PYGZus{}by}\PYG{p}{(}\PYG{n}{Release\PYGZus{}Year}\PYG{p}{)} \PYG{o}{\PYGZpc{}\PYGZgt{}\PYGZpc{}} \PYG{n+nf}{summarise\PYGZus{}at}\PYG{p}{(}\PYG{n+nf}{vars}\PYG{p}{(}\PYG{n}{Memory}\PYG{p}{),} \PYG{n+nf}{list}\PYG{p}{(}\PYG{n}{name} \PYG{o}{=} \PYG{n}{mean}\PYG{p}{)))}
+\PYG{n}{memory\PYGZus{}arr\PYGZus{}mean} \PYG{o}{=} \PYG{n+nf}{array}\PYG{p}{(}\PYG{n}{memory\PYGZus{}arr\PYGZus{}mean}\PYG{o}{\PYGZdl{}}\PYG{n}{name}\PYG{p}{)}
+
+\PYG{n}{memory\PYGZus{}arr\PYGZus{}median} \PYG{o}{=} \PYG{n+nf}{data.frame}\PYG{p}{(}\PYG{n}{df} \PYG{o}{\PYGZpc{}\PYGZgt{}\PYGZpc{}} \PYG{n+nf}{group\PYGZus{}by}\PYG{p}{(}\PYG{n}{Release\PYGZus{}Year}\PYG{p}{)} \PYG{o}{\PYGZpc{}\PYGZgt{}\PYGZpc{}} \PYG{n+nf}{summarise\PYGZus{}at}\PYG{p}{(}\PYG{n+nf}{vars}\PYG{p}{(}\PYG{n}{Memory}\PYG{p}{),} \PYG{n+nf}{list}\PYG{p}{(}\PYG{n}{name} \PYG{o}{=} \PYG{n}{median}\PYG{p}{)))}
+\PYG{n}{memory\PYGZus{}arr\PYGZus{}median} \PYG{o}{=} \PYG{n+nf}{array}\PYG{p}{(}\PYG{n}{memory\PYGZus{}arr\PYGZus{}median}\PYG{o}{\PYGZdl{}}\PYG{n}{name}\PYG{p}{)}
+\end{Verbatim}

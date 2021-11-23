@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{raw\PYGZus{}data} \PYG{o}{=} \PYG{n+nf}{read.csv}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}data.csv\PYGZsq{}}\PYG{p}{)}
+\PYG{n+nf}{View}\PYG{p}{(}\PYG{n}{raw\PYGZus{}data}\PYG{p}{)}
+\end{Verbatim}

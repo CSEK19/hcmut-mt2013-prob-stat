@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{aovCore\PYGZus{}Speed} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{select}\PYG{p}{(}\PYG{n}{df}\PYG{p}{,} \PYG{n}{Manufacturer}\PYG{p}{,} \PYG{n}{log.Core\PYGZus{}Speed}\PYG{p}{)}
+\end{Verbatim}

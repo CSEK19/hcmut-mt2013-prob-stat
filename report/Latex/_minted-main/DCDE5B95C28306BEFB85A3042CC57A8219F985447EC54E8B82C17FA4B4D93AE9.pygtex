@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{df\PYGZus{}knn} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{kNN}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,} \PYG{n}{k} \PYG{o}{=} \PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n+nf}{nrow}\PYG{p}{(}\PYG{n}{data}\PYG{p}{)),} \PYG{n}{imp\PYGZus{}var} \PYG{o}{=} \PYG{k+kc}{FALSE}\PYG{p}{)}
+\PYG{n+nf}{View}\PYG{p}{(}\PYG{n}{df\PYGZus{}knn}\PYG{p}{)}
+\PYG{n+nf}{summary}\PYG{p}{(}\PYG{n}{df\PYGZus{}knn}\PYG{p}{)}
+\end{Verbatim}

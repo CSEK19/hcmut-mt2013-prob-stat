@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{par}\PYG{p}{(}\PYG{n}{mfrow}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,} \PYG{l+m}{2}\PYG{p}{))}
+\PYG{n+nf}{termplot}\PYG{p}{(}\PYG{n}{lmPrice}\PYG{p}{)}
+\PYG{n+nf}{par}\PYG{p}{(}\PYG{n}{mfrow}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,}\PYG{l+m}{1}\PYG{p}{))}
+\end{Verbatim}

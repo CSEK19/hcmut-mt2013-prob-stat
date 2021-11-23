@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{leveneTest}\PYG{p}{(}\PYG{n}{log.Core\PYGZus{}Speed} \PYG{o}{\PYGZti{}} \PYG{n}{Manufacturer}\PYG{p}{,} \PYG{n}{aovCore\PYGZus{}Speed}\PYG{p}{,} \PYG{n}{center} \PYG{o}{=} \PYG{n}{mean}\PYG{p}{)}
+\end{Verbatim}

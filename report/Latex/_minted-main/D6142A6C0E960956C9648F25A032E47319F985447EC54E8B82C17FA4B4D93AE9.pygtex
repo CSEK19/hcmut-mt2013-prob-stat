@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{calculateMooresValue} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{function}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y\PYGZus{}trans}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+  \PYG{n+nf}{return}\PYG{p}{(}\PYG{n}{memory\PYGZus{}arr\PYGZus{}median}\PYG{p}{[}\PYG{l+m}{1}\PYG{p}{]} \PYG{o}{*} \PYG{l+m}{2}\PYG{o}{**}\PYG{p}{((}\PYG{n}{x}\PYG{o}{\PYGZhy{}}\PYG{n}{y\PYGZus{}trans}\PYG{p}{)}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{))}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{n}{exponentialCurve} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{function}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{,} \PYG{n}{c}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+  \PYG{n+nf}{return}\PYG{p}{(}\PYG{n}{a}\PYG{o}{*}\PYG{l+m}{2}\PYG{o}{**}\PYG{p}{((}\PYG{n}{x}\PYG{o}{\PYGZhy{}}\PYG{n}{c}\PYG{p}{)}\PYG{o}{*}\PYG{n}{b}\PYG{p}{))}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

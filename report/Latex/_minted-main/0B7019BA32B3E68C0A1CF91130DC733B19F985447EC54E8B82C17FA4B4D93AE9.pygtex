@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{poly\PYGZus{}3\PYGZus{}mean}\PYG{o}{\PYGZdl{}}\PYG{n}{coefficients}\PYG{p}{[}\PYG{l+m}{1}\PYG{o}{:}\PYG{l+m}{4}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{\PYGZhy{}17128661108.085476}\PYG{p}{,} \PYG{l+m}{2.56615577e+07}\PYG{p}{,} \PYG{l+m}{\PYGZhy{}1.28150909e+04}\PYG{p}{,}  \PYG{l+m}{2.13323868e+00}\PYG{p}{)}
+\PYG{n}{poly\PYGZus{}3\PYGZus{}mean}\PYG{o}{\PYGZdl{}}\PYG{n}{rank} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{4}\PYG{p}{)}
+\end{Verbatim}

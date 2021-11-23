@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+\PYG{k+kn}{import} \PYG{n+nn}{pandas} \PYG{k}{as} \PYG{n+nn}{pd}
+
+\PYG{n}{dataset} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}All\PYGZus{}GPUs.csv\PYGZsq{}}\PYG{p}{)}
+
+\PYG{n}{dataset}\PYG{o}{.}\PYG{n}{info}\PYG{p}{()}
+\PYG{n}{dataset}\PYG{o}{.}\PYG{n}{shape}
+\end{Verbatim}

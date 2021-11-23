@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{df\PYGZus{}extra}\PYG{o}{\PYGZlt{}\PYGZhy{}}\PYG{n+nf}{data.frame}\PYG{p}{(}\PYG{n}{Release\PYGZus{}Year} \PYG{o}{=} \PYG{n}{year\PYGZus{}arr}\PYG{p}{,} \PYG{n}{Memory\PYGZus{}Mean} \PYG{o}{=} \PYG{n}{memory\PYGZus{}arr\PYGZus{}mean}\PYG{p}{,} \PYG{n}{Memory\PYGZus{}Median} \PYG{o}{=} \PYG{n}{memory\PYGZus{}arr\PYGZus{}median}\PYG{p}{,} \PYG{n}{Moore\PYGZus{}Teoretic} \PYG{o}{=} \PYG{n}{y\PYGZus{}pred\PYGZus{}moore\PYGZus{}law\PYGZus{}teoretic}\PYG{p}{,} \PYG{n}{Moore\PYGZus{}Fitted} \PYG{o}{=} \PYG{n}{y\PYGZus{}pred\PYGZus{}moore\PYGZus{}law\PYGZus{}fitted}\PYG{p}{)}
+
+\PYG{n+nf}{ggplot}\PYG{p}{(}\PYG{n}{df\PYGZus{}extra}\PYG{p}{,} \PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{x} \PYG{o}{=} \PYG{n}{Release\PYGZus{}Year}\PYG{p}{))} \PYG{o}{+}  \PYG{n+nf}{theme\PYGZus{}classic}\PYG{p}{()} \PYG{o}{+}
+  \PYG{n+nf}{scale\PYGZus{}x\PYGZus{}continuous}\PYG{p}{(}\PYG{n}{breaks} \PYG{o}{=} \PYG{n}{scales}\PYG{o}{::}\PYG{n+nf}{pretty\PYGZus{}breaks}\PYG{p}{(}\PYG{n}{n} \PYG{o}{=} \PYG{l+m}{20}\PYG{p}{))} \PYG{o}{+}
+  \PYG{n+nf}{theme}\PYG{p}{(}\PYG{n}{legend.position}\PYG{o}{=}\PYG{l+s}{\PYGZsq{}bottom\PYGZsq{}}\PYG{p}{,} \PYG{n}{plot.title} \PYG{o}{=} \PYG{n+nf}{element\PYGZus{}text}\PYG{p}{(}\PYG{n}{hjust} \PYG{o}{=} \PYG{l+m}{0.5}\PYG{p}{))} \PYG{o}{+}
+  \PYG{n+nf}{xlab}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Year\PYGZdq{}}\PYG{p}{)} \PYG{o}{+} \PYG{n+nf}{ylab}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}GPU Memory\PYGZdq{}}\PYG{p}{)} \PYG{o}{+} \PYG{n+nf}{labs}\PYG{p}{(}\PYG{n}{colour}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)} \PYG{o}{+}
+  \PYG{n+nf}{ggtitle}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}GPU Memory vs Year of Release (logaritmic scale)\PYGZdq{}}\PYG{p}{)} \PYG{o}{+}
+  \PYG{n+nf}{geom\PYGZus{}line}\PYG{p}{(}\PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{y} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{Memory\PYGZus{}Mean}\PYG{p}{),} \PYG{n}{colour} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Mean\PYGZdq{}}\PYG{p}{))} \PYG{o}{+}
+  \PYG{n+nf}{geom\PYGZus{}line}\PYG{p}{(}\PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{y} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{Memory\PYGZus{}Median}\PYG{p}{),} \PYG{n}{colour} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Median\PYGZdq{}}\PYG{p}{))} \PYG{o}{+}
+  \PYG{n+nf}{geom\PYGZus{}line}\PYG{p}{(}\PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{y} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{Moore\PYGZus{}Teoretic}\PYG{p}{),} \PYG{n}{colour} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Moore\PYGZsq{}s law teoretic\PYGZdq{}}\PYG{p}{))} \PYG{o}{+}
+  \PYG{n+nf}{geom\PYGZus{}line}\PYG{p}{(}\PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{y} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{Moore\PYGZus{}Fitted}\PYG{p}{),} \PYG{n}{colour} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Moore\PYGZsq{}s law fitted\PYGZdq{}}\PYG{p}{))}
+\end{Verbatim}

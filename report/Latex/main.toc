@@ -1,0 +1,80 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Dataset information}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}R libraries}{5}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Data importing}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Data preprocessing}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Importing to RStudio}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Data cleaning}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data extracting}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Not available data checking}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Dropping}{9}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Replacing with column mean}{10}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Replacing with column median}{10}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Replacing with \textit {k}-NN}{11}{subsubsection.3.2.4}%
+\contentsline {subsubsubsection}{\numberline {3.2.4.a}Fast introduction to \textit {k}-NN}{11}{subsubsubsection.3.2.4.1}%
+\contentsline {subsubsubsection}{\numberline {3.2.4.b}Applying to dataset}{12}{subsubsubsection.3.2.4.2}%
+\contentsline {section}{\numberline {4}Data visualization}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Transformation}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Descriptive statistics for each of the variables}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Graphs}{15}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Hist}{15}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Boxplot}{18}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Pairs}{20}{subsubsection.4.3.3}%
+\contentsline {section}{\numberline {5}Hypothesis testing}{24}{section.5}%
+\contentsline {subsection}{\numberline {5.1}ANOVA}{24}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}One-way ANOVA}{24}{subsubsection.5.1.1}%
+\contentsline {subsubsubsection}{\numberline {5.1.1.a}Basic concept}{24}{subsubsubsection.5.1.1.1}%
+\contentsline {subsubsubsection}{\numberline {5.1.1.b}Building test}{25}{subsubsubsection.5.1.1.2}%
+\contentsline {subsubsubsection}{\numberline {5.1.1.c}Welch’s test}{28}{subsubsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.2}Two-way ANOVA}{28}{subsubsection.5.1.2}%
+\contentsline {subsubsubsection}{\numberline {5.1.2.a}Basic concept}{28}{subsubsubsection.5.1.2.1}%
+\contentsline {subsubsubsection}{\numberline {5.1.2.b}Building test}{29}{subsubsubsection.5.1.2.2}%
+\contentsline {subsubsubsection}{\numberline {5.1.2.c}Post hoc test}{30}{subsubsubsection.5.1.2.3}%
+\contentsline {subsection}{\numberline {5.2}Z-test}{31}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}One-sample Z-test}{31}{subsubsection.5.2.1}%
+\contentsline {subsubsubsection}{\numberline {5.2.1.a}Basic concept}{31}{subsubsubsection.5.2.1.1}%
+\contentsline {subsubsubsection}{\numberline {5.2.1.b}Building test}{31}{subsubsubsection.5.2.1.2}%
+\contentsline {subsubsection}{\numberline {5.2.2}Two-sample Z-test}{33}{subsubsection.5.2.2}%
+\contentsline {subsubsubsection}{\numberline {5.2.2.a}Basic concept}{33}{subsubsubsection.5.2.2.1}%
+\contentsline {subsubsubsection}{\numberline {5.2.2.b}Welch’s test}{35}{subsubsubsection.5.2.2.2}%
+\contentsline {subsection}{\numberline {5.3}Chi-squared test}{35}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Chi-Squared Test of Independence}{35}{subsubsection.5.3.1}%
+\contentsline {subsubsubsection}{\numberline {5.3.1.a}Basic concept}{35}{subsubsubsection.5.3.1.1}%
+\contentsline {subsubsubsection}{\numberline {5.3.1.b}Building test}{36}{subsubsubsection.5.3.1.2}%
+\contentsline {section}{\numberline {6}Fitting linear regression model}{37}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Fast introduction to multiple linear regression}{37}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Constructing multiple linear regression model}{38}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Defining input and output}{38}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Linear regression model \texttt {lmPrice}}{38}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Explanation}{39}{subsubsection.6.2.3}%
+\contentsline {subsubsubsection}{\numberline {6.2.3.a}The \texttt {lm()} function}{39}{subsubsubsection.6.2.3.1}%
+\contentsline {subsubsubsection}{\numberline {6.2.3.b}The \texttt {summary()} function}{40}{subsubsubsection.6.2.3.2}%
+\contentsline {subsection}{\numberline {6.3}Considering eliminating any the independent variables due to the \texttt {Pr(>[t])}}{42}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Testing the linear regression model}{43}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Linear regression model \texttt {lmPriceNoMem}}{43}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.2}Comparison}{43}{subsubsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.5}Model accuracy assessment}{44}{subsection.6.5}%
+\contentsline {subsubsection}{\numberline {6.5.1}R-square}{44}{subsubsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.2}Residual Standard Error}{45}{subsubsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.3}F-Statistic}{45}{subsubsection.6.5.3}%
+\contentsline {subsection}{\numberline {6.6}Multicollinearity checking}{45}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Confidence interval}{46}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Graphs}{47}{subsection.6.8}%
+\contentsline {subsubsection}{\numberline {6.8.1}Homoscedasticity checking}{48}{subsubsection.6.8.1}%
+\contentsline {subsubsection}{\numberline {6.8.2}Linear regression graph for each variable}{50}{subsubsection.6.8.2}%
+\contentsline {subsubsection}{\numberline {6.8.3}Graphs involving multiple variables}{52}{subsubsection.6.8.3}%
+\contentsline {subsection}{\numberline {6.9}Model conclusion}{55}{subsection.6.9}%
+\contentsline {section}{\numberline {7}Fitting extra model}{56}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Fitting exponential model}{56}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Moore's law}{56}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Theoretic model}{57}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Graphs}{57}{subsubsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.2}Fitting polynomial regression model}{60}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Constructing quadratic polynomial regression}{60}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Constructing cubic polynomial regression}{61}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Graphs}{63}{subsubsection.7.2.3}%
+\contentsline {section}{\numberline {8}Prediction}{65}{section.8}%
+\contentsline {subsection}{\numberline {8.1}From dataset}{65}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}From real life}{67}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Report goal}{69}{section.9}%
+\contentsline {section}{\numberline {10}References}{69}{section.10}%

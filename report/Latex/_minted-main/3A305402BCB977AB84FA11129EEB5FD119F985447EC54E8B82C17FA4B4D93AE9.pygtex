@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{lmPrice\PYGZus{}Mem} \PYG{o}{=} \PYG{n+nf}{lm}\PYG{p}{(}\PYG{n}{log.Release\PYGZus{}Price} \PYG{o}{\PYGZti{}} \PYG{n}{log.Memory}\PYG{p}{,} \PYG{n}{df}\PYG{p}{[,} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}log.Release\PYGZus{}Price\PYGZsq{}}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}log.Memory\PYGZsq{}}\PYG{p}{)])}
+\PYG{n+nf}{anova}\PYG{p}{(}\PYG{n}{lmPrice\PYGZus{}Mem}\PYG{p}{)}
+\end{Verbatim}

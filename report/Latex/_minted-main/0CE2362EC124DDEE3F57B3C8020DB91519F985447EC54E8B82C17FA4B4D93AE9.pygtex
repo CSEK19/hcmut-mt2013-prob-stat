@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{HighCoreSpeed} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{filter}\PYG{p}{(}\PYG{n}{df}\PYG{p}{,} \PYG{n}{log.Core\PYGZus{}Speed} \PYG{o}{\PYGZgt{}} \PYG{l+m}{7}\PYG{p}{)}
+\PYG{n}{LowCoreSpeed} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{filter}\PYG{p}{(}\PYG{n}{df}\PYG{p}{,} \PYG{n}{log.Core\PYGZus{}Speed} \PYG{o}{\PYGZlt{}} \PYG{l+m}{7}\PYG{p}{)}
+\end{Verbatim}

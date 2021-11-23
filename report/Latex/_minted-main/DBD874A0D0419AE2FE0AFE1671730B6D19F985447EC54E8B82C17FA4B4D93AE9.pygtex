@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Boost\PYGZus{}Clock\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Boost\PYGZus{}Clock\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Core\PYGZus{}Speed\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Core\PYGZus{}Speed\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Max\PYGZus{}Power\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Max\PYGZus{}Power\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Memory\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Memory\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Memory\PYGZus{}Bus\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Memory\PYGZus{}Bus\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Memory\PYGZus{}Speed\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Memory\PYGZus{}Speed\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Release\PYGZus{}Year\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Release\PYGZus{}Year\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Release\PYGZus{}Price\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Release\PYGZus{}Price\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Shader\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Shader\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.TMUs\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}TMUs\PYGZsq{}}\PYG{p}{])}
+\PYG{n+nf}{View}\PYG{p}{(}\PYG{n}{df}\PYG{p}{)}
+\end{Verbatim}

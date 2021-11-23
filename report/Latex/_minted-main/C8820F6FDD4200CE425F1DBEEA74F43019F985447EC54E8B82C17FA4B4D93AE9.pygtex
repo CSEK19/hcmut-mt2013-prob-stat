@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{df\PYGZus{}z} \PYG{o}{=} \PYG{n}{df} \PYG{o}{\PYGZpc{}\PYGZgt{}\PYGZpc{}} \PYG{n+nf}{select}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}Manufacturer\PYGZsq{}}\PYG{p}{,}\PYG{l+s}{\PYGZsq{}log.Release\PYGZus{}Price\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{df\PYGZus{}ztest} \PYG{o}{=} \PYG{n}{df\PYGZus{}z} \PYG{o}{\PYGZpc{}\PYGZgt{}\PYGZpc{}} \PYG{n+nf}{filter}\PYG{p}{(}\PYG{n}{dfz}\PYG{o}{\PYGZdl{}}\PYG{n}{Manufacturer} \PYG{o}{==} \PYG{l+s}{\PYGZsq{}Nvidia\PYGZsq{}} \PYG{o}{|} \PYG{n}{dfz}\PYG{o}{\PYGZdl{}}\PYG{n}{Manufacturer} \PYG{o}{==} \PYG{l+s}{\PYGZsq{}AMD\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

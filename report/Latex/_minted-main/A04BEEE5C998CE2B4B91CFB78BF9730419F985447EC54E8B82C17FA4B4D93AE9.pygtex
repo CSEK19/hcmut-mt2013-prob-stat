@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{HighCoreSpeed}  \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{80}\PYG{p}{,}\PYG{l+m}{530}\PYG{p}{,}\PYG{l+m}{8}\PYG{p}{)}
+\PYG{n}{LowCoreSpeed}  \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{373}\PYG{p}{,}\PYG{l+m}{2362}\PYG{p}{,}\PYG{l+m}{12}\PYG{p}{)}
+\PYG{n+nf}{chisq.test}\PYG{p}{(}\PYG{n+nf}{data.frame}\PYG{p}{(}\PYG{n}{HighCoreSpeed} \PYG{p}{,}\PYG{n}{LowCoreSpeed}\PYG{p}{))}
+\end{Verbatim}

@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{spec\PYGZus{}RTX\PYGZus{}3090} \PYG{o}{=} \PYG{n+nf}{data.frame}\PYG{p}{(}
+  \PYG{n}{log.Boost\PYGZus{}Clock} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{1695}\PYG{p}{),}
+  \PYG{n}{log.Core\PYGZus{}Speed} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{1395}\PYG{p}{),}
+  \PYG{n}{log.Max\PYGZus{}Power} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{350}\PYG{p}{),}
+  \PYG{n}{log.Memory} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{24576}\PYG{p}{),}
+  \PYG{n}{log.Memory\PYGZus{}Bus} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{384}\PYG{p}{),}
+  \PYG{n}{log.Memory\PYGZus{}Speed} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{1219}\PYG{p}{),}
+  \PYG{n}{log.Shader} \PYG{o}{=} \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{10496}\PYG{p}{),}
+  \PYG{n}{log.TMUs} \PYG{o}{=}  \PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{328}\PYG{p}{)}
+\PYG{p}{)}
+
+\PYG{n+nf}{exp}\PYG{p}{(}\PYG{n+nf}{predict}\PYG{p}{(}\PYG{n}{lmPrice}\PYG{p}{,} \PYG{n}{spec\PYGZus{}RTX\PYGZus{}3090}\PYG{p}{,} \PYG{n}{interval} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}confidence\PYGZdq{}}\PYG{p}{,} \PYG{n}{level} \PYG{o}{=} \PYG{l+m}{0.95}\PYG{p}{))}
+\end{Verbatim}

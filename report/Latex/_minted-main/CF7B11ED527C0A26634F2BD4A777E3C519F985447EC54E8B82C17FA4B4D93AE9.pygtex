@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{oneway.test}\PYG{p}{(}\PYG{n}{log.Release\PYGZus{}Price} \PYG{o}{\PYGZti{}} \PYG{n}{Manufacturer}\PYG{p}{,} \PYG{n}{data}\PYG{o}{=}\PYG{n}{df\PYGZus{}ztest}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{data} \PYG{o}{=} \PYG{n}{raw\PYGZus{}data} \PYG{o}{\PYGZpc{}\PYGZgt{}\PYGZpc{}} \PYG{n+nf}{select}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}Manufacturer\PYGZsq{}}\PYG{p}{,}\PYG{l+s}{\PYGZsq{}Name\PYGZsq{}}\PYG{p}{,}\PYG{l+s}{\PYGZsq{}Architecture\PYGZsq{}}\PYG{p}{,}\PYG{l+s}{\PYGZsq{}Boost\PYGZus{}Clock\PYGZsq{}}\PYG{p}{,}\PYG{l+s}{\PYGZsq{}Core\PYGZus{}Speed\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s}{\PYGZsq{}Max\PYGZus{}Power\PYGZsq{}}\PYG{p}{,}\PYG{l+s}{\PYGZsq{}Memory\PYGZsq{}}\PYG{p}{,}\PYG{l+s}{\PYGZsq{}Memory\PYGZus{}Bus\PYGZsq{}}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}Memory\PYGZus{}Speed\PYGZsq{}}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}Release\PYGZus{}Year\PYGZsq{}}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}Release\PYGZus{}Price\PYGZsq{}}\PYG{p}{,}\PYG{l+s}{\PYGZsq{}Shader\PYGZsq{}}\PYG{p}{,}\PYG{l+s}{\PYGZsq{}TMUs\PYGZsq{}}\PYG{p}{)}
+\PYG{n+nf}{View}\PYG{p}{(}\PYG{n}{data}\PYG{p}{)}
+\end{Verbatim}

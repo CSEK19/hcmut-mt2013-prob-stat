@@ -148,7 +148,17 @@ LowCoreSpeed  = c(373,2362,12)
 chisq.test(data.frame(HighCoreSpeed ,LowCoreSpeed))
 
 # Z-test
+# One-sample
+df_z_one = df %>% select('Memory')
+zStat <- (mean(df_z_one$Memory) - 3000) / (sd(df_z_one$Memory) / sqrt(nrow(df_z_one)))
+print(zStat)      
 
+pt(zStat, nrow(df_z_one) - 1)    
+pnorm(q=zStat, lower.tail=TRUE)
+
+
+
+# Two-sample
 df_z = df %>% select('Manufacturer','log.Release_Price')
 df_ztest = df_z %>% filter(dfz$Manufacturer == 'Nvidia' | dfz$Manufacturer == 'AMD')
 ggqqplot(df_ztest$log.Release_Price)

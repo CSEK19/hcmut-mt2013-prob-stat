@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{plot}\PYG{p}{(}\PYG{n}{lmPrice}\PYG{o}{\PYGZdl{}}\PYG{n}{fitted.values}\PYG{p}{,} \PYG{n}{lmPrice}\PYG{o}{\PYGZdl{}}\PYG{n}{residuals}\PYG{p}{,} \PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}black\PYGZdq{}}\PYG{p}{,} \PYG{n}{xlab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Fitted values\PYGZdq{}}\PYG{p}{,} \PYG{n}{ylab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Residuals\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

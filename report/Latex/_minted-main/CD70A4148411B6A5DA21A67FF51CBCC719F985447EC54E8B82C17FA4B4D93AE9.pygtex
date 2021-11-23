@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{pt}\PYG{p}{(}\PYG{n}{zStat}\PYG{p}{,} \PYG{n+nf}{nrow}\PYG{p}{(}\PYG{n}{df\PYGZus{}z\PYGZus{}one}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{l+m}{1}\PYG{p}{)}
+\end{Verbatim}

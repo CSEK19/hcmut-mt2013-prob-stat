@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{df\PYGZus{}mean} \PYG{o}{=} \PYG{n}{data} \PYG{o}{\PYGZpc{}\PYGZgt{}\PYGZpc{}} \PYG{n+nf}{mutate\PYGZus{}all}\PYG{p}{(}\PYG{o}{\PYGZti{}}\PYG{n+nf}{ifelse}\PYG{p}{(}\PYG{n+nf}{is.na}\PYG{p}{(}\PYG{n}{.x}\PYG{p}{),} \PYG{n+nf}{mean}\PYG{p}{(}\PYG{n}{.x}\PYG{p}{,} \PYG{n}{na.rm} \PYG{o}{=} \PYG{k+kc}{TRUE}\PYG{p}{),} \PYG{n}{.x}\PYG{p}{))}
+\PYG{n+nf}{View}\PYG{p}{(}\PYG{n}{df\PYGZus{}mean}\PYG{p}{)}
+\PYG{n+nf}{summary}\PYG{p}{(}\PYG{n}{df\PYGZus{}mean}\PYG{p}{)}
+\end{Verbatim}

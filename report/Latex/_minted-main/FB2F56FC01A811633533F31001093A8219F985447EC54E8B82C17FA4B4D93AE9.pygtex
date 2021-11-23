@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{df} \PYG{o}{=} \PYG{n}{df\PYGZus{}drop}
+
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Boost\PYGZus{}Clock\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Boost\PYGZus{}Clock\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Core\PYGZus{}Speed\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Core\PYGZus{}Speed\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Max\PYGZus{}Power\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Max\PYGZus{}Power\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Memory\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Memory\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Memory\PYGZus{}Bus\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Memory\PYGZus{}Bus\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Memory\PYGZus{}Speed\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Memory\PYGZus{}Speed\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Release\PYGZus{}Year\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Release\PYGZus{}Year\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Release\PYGZus{}Price\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Release\PYGZus{}Price\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.Shader\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Shader\PYGZsq{}}\PYG{p}{])}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}log.TMUs\PYGZsq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s}{\PYGZsq{}TMUs\PYGZsq{}}\PYG{p}{])}
+
+\PYG{n}{lmPrice} \PYG{o}{=} \PYG{n+nf}{lm}\PYG{p}{(}\PYG{n}{log.Release\PYGZus{}Price} \PYG{o}{\PYGZti{}} \PYG{n}{log.Boost\PYGZus{}Clock} \PYG{o}{+} \PYG{n}{log.Core\PYGZus{}Speed} \PYG{o}{+} \PYG{n}{log.Max\PYGZus{}Power} \PYG{o}{+} \PYG{n}{log.Memory} \PYG{o}{+} \PYG{n}{log.Memory\PYGZus{}Bus} \PYG{o}{+} \PYG{n}{log.Memory\PYGZus{}Speed} \PYG{o}{+} \PYG{n}{log.Shader} \PYG{o}{+} \PYG{n}{log.TMUs}\PYG{p}{,} \PYG{n}{df}\PYG{p}{)}
+
+\PYG{n+nf}{exp}\PYG{p}{(}\PYG{n+nf}{predict}\PYG{p}{(}\PYG{n}{lmPrice}\PYG{p}{,} \PYG{n}{spec\PYGZus{}RTX\PYGZus{}3090}\PYG{p}{,} \PYG{n}{interval} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}confidence\PYGZdq{}}\PYG{p}{,} \PYG{n}{level} \PYG{o}{=} \PYG{l+m}{0.95}\PYG{p}{))}
+\end{Verbatim}

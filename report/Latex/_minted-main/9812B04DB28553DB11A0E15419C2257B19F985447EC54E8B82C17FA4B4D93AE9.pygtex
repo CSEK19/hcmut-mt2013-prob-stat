@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{aov\PYGZus{}one} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{aov}\PYG{p}{(}\PYG{n}{log.Core\PYGZus{}Speed} \PYG{o}{\PYGZti{}} \PYG{n}{Manufacturer}\PYG{p}{,} \PYG{n}{data} \PYG{o}{=} \PYG{n}{aovCore\PYGZus{}Speed}\PYG{p}{)}
+\PYG{n}{aov\PYGZus{}one}
+\PYG{n+nf}{summary}\PYG{p}{(}\PYG{n}{aov\PYGZus{}one}\PYG{p}{)}
+\end{Verbatim}

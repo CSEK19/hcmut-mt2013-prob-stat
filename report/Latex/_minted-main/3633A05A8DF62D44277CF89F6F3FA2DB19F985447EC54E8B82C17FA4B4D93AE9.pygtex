@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{confint}\PYG{p}{(}\PYG{n}{lmPrice}\PYG{p}{)}
+\end{Verbatim}

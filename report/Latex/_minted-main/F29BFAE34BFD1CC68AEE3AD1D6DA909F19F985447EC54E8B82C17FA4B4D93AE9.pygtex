@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{ggplot}\PYG{p}{(}\PYG{n}{df}\PYG{p}{,} \PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{x} \PYG{o}{=} \PYG{n}{Release\PYGZus{}Year}\PYG{p}{,} \PYG{n}{y}\PYG{o}{=}\PYG{n}{..density..}\PYG{p}{))} \PYG{o}{+} \PYG{n+nf}{theme\PYGZus{}classic}\PYG{p}{()} \PYG{o}{+}  \PYG{n+nf}{geom\PYGZus{}density}\PYG{p}{()} \PYG{o}{+}
+  \PYG{n+nf}{geom\PYGZus{}histogram}\PYG{p}{(}\PYG{n}{bins} \PYG{o}{=} \PYG{l+m}{50}\PYG{p}{,} \PYG{n}{fill} \PYG{o}{=} \PYG{l+s}{\PYGZsq{}steelblue\PYGZsq{}}\PYG{p}{,} \PYG{n}{color} \PYG{o}{=} \PYG{l+s}{\PYGZsq{}black\PYGZsq{}}\PYG{p}{)} \PYG{o}{+}
+  \PYG{n+nf}{labs}\PYG{p}{(}\PYG{n}{title} \PYG{o}{=} \PYG{l+s}{\PYGZsq{}Histogram of Release\PYGZus{}Year\PYGZsq{}}\PYG{p}{,} \PYG{n}{x} \PYG{o}{=} \PYG{l+s}{\PYGZsq{}Year\PYGZsq{}}\PYG{p}{,} \PYG{n}{y} \PYG{o}{=} \PYG{l+s}{\PYGZsq{}Frequency\PYGZsq{}}\PYG{p}{)} \PYG{o}{+}
+  \PYG{n+nf}{theme}\PYG{p}{(}\PYG{n}{legend.position}\PYG{o}{=}\PYG{l+s}{\PYGZsq{}bottom\PYGZsq{}}\PYG{p}{,} \PYG{n}{plot.title} \PYG{o}{=} \PYG{n+nf}{element\PYGZus{}text}\PYG{p}{(}\PYG{n}{hjust} \PYG{o}{=} \PYG{l+m}{0.5}\PYG{p}{))}
+\end{Verbatim}

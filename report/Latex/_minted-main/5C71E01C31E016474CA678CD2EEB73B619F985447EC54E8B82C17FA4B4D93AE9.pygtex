@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{year\PYGZus{}df} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{data.frame}\PYG{p}{(}\PYG{n}{Release\PYGZus{}Year} \PYG{o}{=} \PYG{n}{year\PYGZus{}arr}\PYG{p}{)}
+\PYG{n}{y\PYGZus{}pred\PYGZus{}lin\PYGZus{}reg\PYGZus{}2} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{predict}\PYG{p}{(}\PYG{n}{poly\PYGZus{}2\PYGZus{}mean}\PYG{p}{,} \PYG{n}{year\PYGZus{}df}\PYG{p}{,} \PYG{n}{type}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}response\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}
