@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1637675461 "c:/Users/Admin/Desktop/P/BK/211/Probability and Statistics/Project/Github/prob-stat/report/Latex/main.tex" "main.pdf" "main" 1637675470
+["pdflatex"] 1637676723 "c:/Users/Admin/Desktop/P/BK/211/Probability and Statistics/Project/Github/prob-stat/report/Latex/main.tex" "main.pdf" "main" 1637676731
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1254938640 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1254938640 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1254938640 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -390,14 +390,14 @@
   "_minted-main/FB2F56FC01A811633533F31001093A8219F985447EC54E8B82C17FA4B4D93AE9.pygtex" 1637672706 2899 e50400332304938d81de743af0b31bd6 ""
   "_minted-main/default-pyg-prefix.pygstyle" 1637672676 6466 76dc7c7010180dcc51108abc9e104d38 ""
   "_minted-main/default.pygstyle" 1637672677 7852 fe6d7d32801076706bc049d62bcce705 ""
-  "c:/Users/Admin/Desktop/P/BK/211/Probability and Statistics/Project/Github/prob-stat/report/Latex/main.tex" 1637675460 138983 b6570afcb23e4ac2d74f0dcdeaf5a086 ""
-  "main.aux" 1637675469 17519 15b770d88a792ff23021fe4a5c2f4204 "pdflatex"
-  "main.out" 1637675469 13219 97a5095400617588856d5edaf5b6dc6c "pdflatex"
-  "main.tex" 1637675460 138983 b6570afcb23e4ac2d74f0dcdeaf5a086 ""
-  "main.toc" 1637675469 7479 080a64156bb3c116f1e1b128b78d96ac "pdflatex"
+  "c:/Users/Admin/Desktop/P/BK/211/Probability and Statistics/Project/Github/prob-stat/report/Latex/main.tex" 1637676714 139253 a96f5ab0676dcc407110eb75e2f6fec5 ""
+  "main.aux" 1637676730 17519 15b770d88a792ff23021fe4a5c2f4204 "pdflatex"
+  "main.out" 1637676730 13219 97a5095400617588856d5edaf5b6dc6c "pdflatex"
+  "main.tex" 1637676714 139253 a96f5ab0676dcc407110eb75e2f6fec5 ""
+  "main.toc" 1637676730 7479 080a64156bb3c116f1e1b128b78d96ac "pdflatex"
   (generated)
-  "main.toc"
-  "main.aux"
+  "main.out"
   "main.pdf"
   "main.log"
-  "main.out"
+  "main.toc"
+  "main.aux"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.15)  23 NOV 2021 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.15)  23 NOV 2021 21:12
 entering extended mode
 **"c:/Users/Admin/Desktop/P/BK/211/Probability and Statistics/Project/Github/prob-stat/report/Latex/main.tex"
 (c:/Users/Admin/Desktop/P/BK/211/Probability and Statistics/Project/Github/prob-stat/report/Latex/main.tex
@@ -1166,7 +1166,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 20
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
 
  []
 
@@ -1177,7 +1177,7 @@ Package pdftex.def Info: LogoBK.jpg  used on input line 220.
 [3]
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 246.
+Package pdftex.def Info: LogoBK.jpg  used on input line 247.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [4]
 \openout4 = `main.pyg'.
@@ -1192,164 +1192,164 @@ File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 286.
+Package pdftex.def Info: LogoBK.jpg  used on input line 287.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [5]
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 334.
+Package pdftex.def Info: LogoBK.jpg  used on input line 335.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [6]
 \openout4 = `main.pyg'.
 
  (_minted-main/E78B9FA059F9D0C026330F2DC1A4609F19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Import/1.png, id=514, 1035.11719pt x 393.72093pt>
+<Import/1.png, id=516, 1035.11719pt x 393.72093pt>
 File: Import/1.png Graphic file (type png)
 <use Import/1.png>
-Package pdftex.def Info: Import/1.png  used on input line 361.
+Package pdftex.def Info: Import/1.png  used on input line 362.
 (pdftex.def)             Requested size: 418.2567pt x 159.08963pt.
-<Clean/1.png, id=515, 873.2625pt x 82.80937pt>
+<Clean/1.png, id=517, 873.2625pt x 82.80937pt>
 File: Clean/1.png Graphic file (type png)
 <use Clean/1.png>
-Package pdftex.def Info: Clean/1.png  used on input line 373.
+Package pdftex.def Info: Clean/1.png  used on input line 374.
 (pdftex.def)             Requested size: 418.25514pt x 39.66211pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 375.
+Package pdftex.def Info: LogoBK.jpg  used on input line 376.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [7 <./Import/1.png>]
 \openout4 = `main.pyg'.
 
  (_minted-main/CFC45F60C3418F067BB2D84A5D9ED43219F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Clean/2.png, id=523, 1036.62282pt x 393.72093pt>
+<Clean/2.png, id=525, 1036.62282pt x 393.72093pt>
 File: Clean/2.png Graphic file (type png)
 <use Clean/2.png>
-Package pdftex.def Info: Clean/2.png  used on input line 401.
+Package pdftex.def Info: Clean/2.png  used on input line 402.
 (pdftex.def)             Requested size: 418.264pt x 158.86134pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 403.
+Package pdftex.def Info: LogoBK.jpg  used on input line 404.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [8 <./Clean/1.png>]
 \openout4 = `main.pyg'.
 
  (_minted-main/EDC17427302043A31EDB03EB0F4F343719F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Clean/df_drop.png, id=530, 1382.91656pt x 365.86688pt>
+<Clean/df_drop.png, id=532, 1382.91656pt x 365.86688pt>
 File: Clean/df_drop.png Graphic file (type png)
 <use Clean/df_drop.png>
-Package pdftex.def Info: Clean/df_drop.png  used on input line 422.
+Package pdftex.def Info: Clean/df_drop.png  used on input line 423.
 (pdftex.def)             Requested size: 418.25443pt x 110.65413pt.
-<Clean/df_drop_summary.png, id=531, 1381.41093pt x 236.38312pt>
+<Clean/df_drop_summary.png, id=533, 1381.41093pt x 236.38312pt>
 File: Clean/df_drop_summary.png Graphic file (type png)
 <use Clean/df_drop_summary.png>
-Package pdftex.def Info: Clean/df_drop_summary.png  used on input line 426.
+Package pdftex.def Info: Clean/df_drop_summary.png  used on input line 427.
 (pdftex.def)             Requested size: 418.24171pt x 71.56833pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 428.
+Package pdftex.def Info: LogoBK.jpg  used on input line 429.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [9 <./Clean/2.png> <./Clean/df_drop.png>]
 \openout4 = `main.pyg'.
 
  (_minted-main/F598B75D92B5F631DEAED4DCCD6F5B2519F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Clean/df_mean.png, id=539, 1382.91656pt x 363.60844pt>
+<Clean/df_mean.png, id=541, 1382.91656pt x 363.60844pt>
 File: Clean/df_mean.png Graphic file (type png)
 <use Clean/df_mean.png>
-Package pdftex.def Info: Clean/df_mean.png  used on input line 441.
+Package pdftex.def Info: Clean/df_mean.png  used on input line 442.
 (pdftex.def)             Requested size: 418.25443pt x 109.97108pt.
-<Clean/df_mean_summary.png, id=540, 1381.41093pt x 237.88875pt>
+<Clean/df_mean_summary.png, id=542, 1381.41093pt x 237.88875pt>
 File: Clean/df_mean_summary.png Graphic file (type png)
 <use Clean/df_mean_summary.png>
-Package pdftex.def Info: Clean/df_mean_summary.png  used on input line 445.
+Package pdftex.def Info: Clean/df_mean_summary.png  used on input line 446.
 (pdftex.def)             Requested size: 418.24171pt x 72.02417pt.
 \openout4 = `main.pyg'.
 
  (_minted-main/93A8B6A188C10C165BDB8A26CF8DC9ED19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 456.
+Package pdftex.def Info: LogoBK.jpg  used on input line 457.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [10 <./Clean/df_drop_summary.png> <./Clean/df_mean.png> <./Clean/df_mean_summary.png>]
-Package mdframed Info: Not enough space on this page on input line 456.
-<Clean/df_median.png, id=550, 1381.41093pt x 363.60844pt>
+Package mdframed Info: Not enough space on this page on input line 457.
+<Clean/df_median.png, id=552, 1381.41093pt x 363.60844pt>
 File: Clean/df_median.png Graphic file (type png)
 <use Clean/df_median.png>
-Package pdftex.def Info: Clean/df_median.png  used on input line 459.
+Package pdftex.def Info: Clean/df_median.png  used on input line 460.
 (pdftex.def)             Requested size: 418.24171pt x 110.08759pt.
-<Clean/df_median_summary.png, id=551, 1381.41093pt x 237.88875pt>
+<Clean/df_median_summary.png, id=553, 1381.41093pt x 237.88875pt>
 File: Clean/df_median_summary.png Graphic file (type png)
 <use Clean/df_median_summary.png>
-Package pdftex.def Info: Clean/df_median_summary.png  used on input line 463.
+Package pdftex.def Info: Clean/df_median_summary.png  used on input line 464.
 (pdftex.def)             Requested size: 418.24171pt x 72.02417pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 470.
+(Font)              <8> on input line 471.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 470.
+(Font)              <6> on input line 471.
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--471
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--471
+Underfull \hbox (badness 10000) in paragraph at lines 468--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--471
+Underfull \hbox (badness 10000) in paragraph at lines 468--472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--472
 
  []
 
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 477.
+Package pdftex.def Info: LogoBK.jpg  used on input line 478.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [11 <./Clean/df_median.png> <./Clean/df_median_summary.png>]
 \openout4 = `main.pyg'.
 
  (_minted-main/DCDE5B95C28306BEFB85A3042CC57A8219F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Clean/df_knn.png, id=570, 1381.41093pt x 362.85562pt>
+<Clean/df_knn.png, id=572, 1381.41093pt x 362.85562pt>
 File: Clean/df_knn.png Graphic file (type png)
 <use Clean/df_knn.png>
-Package pdftex.def Info: Clean/df_knn.png  used on input line 497.
+Package pdftex.def Info: Clean/df_knn.png  used on input line 498.
 (pdftex.def)             Requested size: 418.24171pt x 109.85966pt.
-<Clean/df_knn_summary.png, id=571, 1382.16376pt x 237.88875pt>
+<Clean/df_knn_summary.png, id=573, 1382.16376pt x 237.88875pt>
 File: Clean/df_knn_summary.png Graphic file (type png)
 <use Clean/df_knn_summary.png>
-Package pdftex.def Info: Clean/df_knn_summary.png  used on input line 501.
+Package pdftex.def Info: Clean/df_knn_summary.png  used on input line 502.
 (pdftex.def)             Requested size: 418.23764pt x 71.98424pt.
 \openout4 = `main.pyg'.
 
  (_minted-main/A765C833E04735654941E303495206E319F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 509--512
+Underfull \hbox (badness 10000) in paragraph at lines 510--513
 
  []
 
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 515.
+Package pdftex.def Info: LogoBK.jpg  used on input line 516.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [12 <./Clean/df_knn.png> <./Clean/df_knn_summary.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 516--519
+Underfull \hbox (badness 10000) in paragraph at lines 517--520
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--519
+Underfull \hbox (badness 10000) in paragraph at lines 517--520
 
  []
 
 \openout4 = `main.pyg'.
 
 (_minted-main/DBD874A0D0419AE2FE0AFE1671730B6D19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Visualization/Transformation/1.png, id=584, 1004.25188pt x 413.29407pt>
+<Visualization/Transformation/1.png, id=586, 1004.25188pt x 413.29407pt>
 File: Visualization/Transformation/1.png Graphic file (type png)
 <use Visualization/Transformation/1.png>
-Package pdftex.def Info: Visualization/Transformation/1.png  used on input line 544.
+Package pdftex.def Info: Visualization/Transformation/1.png  used on input line 545.
 (pdftex.def)             Requested size: 418.25848pt x 172.13185pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 546.
+Package pdftex.def Info: LogoBK.jpg  used on input line 547.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [13]
 \openout4 = `main.pyg'.
@@ -1357,13 +1357,13 @@ Package pdftex.def Info: LogoBK.jpg  used on input line 546.
  (_minted-main/35B038EEFE40BD91C6B9DCD0D94735FE19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 566.
+Package pdftex.def Info: LogoBK.jpg  used on input line 567.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [14 <./Visualization/Transformation/1.png>]
-<Visualization/Descriptive/2.png, id=597, 873.2625pt x 153.57375pt>
+<Visualization/Descriptive/2.png, id=599, 873.2625pt x 153.57375pt>
 File: Visualization/Descriptive/2.png Graphic file (type png)
 <use Visualization/Descriptive/2.png>
-Package pdftex.def Info: Visualization/Descriptive/2.png  used on input line 569.
+Package pdftex.def Info: Visualization/Descriptive/2.png  used on input line 570.
 (pdftex.def)             Requested size: 418.25514pt x 73.5552pt.
 \openout4 = `main.pyg'.
 
@@ -1371,54 +1371,54 @@ Package pdftex.def Info: Visualization/Descriptive/2.png  used on input line 569
 \openout4 = `main.pyg'.
 
  (_minted-main/DB75C949458FE3124F6DCFA11A907A2119F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Visualization/Hist/release_price.pdf, id=598, 420.57124pt x 597.23125pt>
+<Visualization/Hist/release_price.pdf, id=600, 420.57124pt x 597.23125pt>
 File: Visualization/Hist/release_price.pdf Graphic file (type pdf)
 <use Visualization/Hist/release_price.pdf>
-Package pdftex.def Info: Visualization/Hist/release_price.pdf  used on input line 597.
+Package pdftex.def Info: Visualization/Hist/release_price.pdf  used on input line 598.
 (pdftex.def)             Requested size: 416.585pt x 591.5706pt.
-<Visualization/Hist/log.release_price.pdf, id=599, 420.57124pt x 597.23125pt>
+<Visualization/Hist/log.release_price.pdf, id=601, 420.57124pt x 597.23125pt>
 File: Visualization/Hist/log.release_price.pdf Graphic file (type pdf)
 <use Visualization/Hist/log.release_price.pdf>
-Package pdftex.def Info: Visualization/Hist/log.release_price.pdf  used on input line 598.
+Package pdftex.def Info: Visualization/Hist/log.release_price.pdf  used on input line 599.
 (pdftex.def)             Requested size: 416.585pt x 591.5706pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 601.
+Package pdftex.def Info: LogoBK.jpg  used on input line 602.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [15 <./Visualization/Descriptive/2.png>]
 \openout4 = `main.pyg'.
 
  (_minted-main/E49347A90ED6642BD81A7511E727F9E619F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Visualization/Hist/release_year.pdf, id=610, 420.57124pt x 597.23125pt>
+<Visualization/Hist/release_year.pdf, id=612, 420.57124pt x 597.23125pt>
 File: Visualization/Hist/release_year.pdf Graphic file (type pdf)
 <use Visualization/Hist/release_year.pdf>
-Package pdftex.def Info: Visualization/Hist/release_year.pdf  used on input line 612.
+Package pdftex.def Info: Visualization/Hist/release_year.pdf  used on input line 613.
 (pdftex.def)             Requested size: 416.585pt x 591.5706pt.
-<Visualization/Hist/log.release_year.pdf, id=611, 420.57124pt x 597.23125pt>
+<Visualization/Hist/log.release_year.pdf, id=613, 420.57124pt x 597.23125pt>
 File: Visualization/Hist/log.release_year.pdf Graphic file (type pdf)
 <use Visualization/Hist/log.release_year.pdf>
-Package pdftex.def Info: Visualization/Hist/log.release_year.pdf  used on input line 613.
+Package pdftex.def Info: Visualization/Hist/log.release_year.pdf  used on input line 614.
 (pdftex.def)             Requested size: 416.585pt x 591.5706pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 616.
+Package pdftex.def Info: LogoBK.jpg  used on input line 617.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [16 <./Visualization/Hist/release_price.pdf> <./Visualization/Hist/log.release_price.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 617--619
+Underfull \hbox (badness 10000) in paragraph at lines 618--620
 
  []
 
 \openout4 = `main.pyg'.
 
 (_minted-main/F29BFAE34BFD1CC68AEE3AD1D6DA909F19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Visualization/Hist/release_year_dis.pdf, id=629, 844.15375pt x 597.23125pt>
+<Visualization/Hist/release_year_dis.pdf, id=631, 844.15375pt x 597.23125pt>
 File: Visualization/Hist/release_year_dis.pdf Graphic file (type pdf)
 <use Visualization/Hist/release_year_dis.pdf>
-Package pdftex.def Info: Visualization/Hist/release_year_dis.pdf  used on input line 629.
+Package pdftex.def Info: Visualization/Hist/release_year_dis.pdf  used on input line 630.
 (pdftex.def)             Requested size: 418.26314pt x 295.91743pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 631.
+Package pdftex.def Info: LogoBK.jpg  used on input line 632.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [17 <./Visualization/Hist/release_year.pdf> <./Visualization/Hist/log.release_year.pdf>]
 \openout4 = `main.pyg'.
@@ -1426,117 +1426,117 @@ Package pdftex.def Info: LogoBK.jpg  used on input line 631.
  (_minted-main/E592147D4A6CC2DB79B4F416C46D7B5319F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 649.
+Package pdftex.def Info: LogoBK.jpg  used on input line 650.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [18 <./Visualization/Hist/release_year_dis.pdf>]
-Package mdframed Info: Not enough space on this page on input line 649.
-<Visualization/Boxplot/price_shader.pdf, id=659, 597.23125pt x 420.57124pt>
+Package mdframed Info: Not enough space on this page on input line 650.
+<Visualization/Boxplot/price_shader.pdf, id=661, 597.23125pt x 420.57124pt>
 File: Visualization/Boxplot/price_shader.pdf Graphic file (type pdf)
 <use Visualization/Boxplot/price_shader.pdf>
-Package pdftex.def Info: Visualization/Boxplot/price_shader.pdf  used on input line 652.
+Package pdftex.def Info: Visualization/Boxplot/price_shader.pdf  used on input line 653.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
-<Visualization/Boxplot/mem_bus.pdf, id=660, 597.23125pt x 420.57124pt>
+<Visualization/Boxplot/mem_bus.pdf, id=662, 597.23125pt x 420.57124pt>
 File: Visualization/Boxplot/mem_bus.pdf Graphic file (type pdf)
 <use Visualization/Boxplot/mem_bus.pdf>
-Package pdftex.def Info: Visualization/Boxplot/mem_bus.pdf  used on input line 658.
+Package pdftex.def Info: Visualization/Boxplot/mem_bus.pdf  used on input line 659.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
-<Visualization/Boxplot/mem_speed_bus.pdf, id=661, 597.23125pt x 420.57124pt>
+<Visualization/Boxplot/mem_speed_bus.pdf, id=663, 597.23125pt x 420.57124pt>
 File: Visualization/Boxplot/mem_speed_bus.pdf Graphic file (type pdf)
 <use Visualization/Boxplot/mem_speed_bus.pdf>
-Package pdftex.def Info: Visualization/Boxplot/mem_speed_bus.pdf  used on input line 659.
+Package pdftex.def Info: Visualization/Boxplot/mem_speed_bus.pdf  used on input line 660.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 662.
+Package pdftex.def Info: LogoBK.jpg  used on input line 663.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [19 <./Visualization/Boxplot/price_shader.pdf>]
 \openout4 = `main.pyg'.
 
  (_minted-main/1D76294F62C3990F45C52BC5F6F3843219F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Visualization/Pairs/price_boostclock.pdf, id=674, 597.23125pt x 420.57124pt>
+<Visualization/Pairs/price_boostclock.pdf, id=676, 597.23125pt x 420.57124pt>
 File: Visualization/Pairs/price_boostclock.pdf Graphic file (type pdf)
 <use Visualization/Pairs/price_boostclock.pdf>
-Package pdftex.def Info: Visualization/Pairs/price_boostclock.pdf  used on input line 680.
+Package pdftex.def Info: Visualization/Pairs/price_boostclock.pdf  used on input line 681.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
-<Visualization/Pairs/price_corespeed.pdf, id=675, 597.23125pt x 420.57124pt>
+<Visualization/Pairs/price_corespeed.pdf, id=677, 597.23125pt x 420.57124pt>
 File: Visualization/Pairs/price_corespeed.pdf Graphic file (type pdf)
 <use Visualization/Pairs/price_corespeed.pdf>
-Package pdftex.def Info: Visualization/Pairs/price_corespeed.pdf  used on input line 681.
+Package pdftex.def Info: Visualization/Pairs/price_corespeed.pdf  used on input line 682.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
-<Visualization/Pairs/price_maxpower.pdf, id=676, 597.23125pt x 420.57124pt>
+<Visualization/Pairs/price_maxpower.pdf, id=678, 597.23125pt x 420.57124pt>
 File: Visualization/Pairs/price_maxpower.pdf Graphic file (type pdf)
 <use Visualization/Pairs/price_maxpower.pdf>
-Package pdftex.def Info: Visualization/Pairs/price_maxpower.pdf  used on input line 682.
+Package pdftex.def Info: Visualization/Pairs/price_maxpower.pdf  used on input line 683.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
-<Visualization/Pairs/price_memory.pdf, id=677, 597.23125pt x 420.57124pt>
+<Visualization/Pairs/price_memory.pdf, id=679, 597.23125pt x 420.57124pt>
 File: Visualization/Pairs/price_memory.pdf Graphic file (type pdf)
 <use Visualization/Pairs/price_memory.pdf>
-Package pdftex.def Info: Visualization/Pairs/price_memory.pdf  used on input line 683.
+Package pdftex.def Info: Visualization/Pairs/price_memory.pdf  used on input line 684.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
-<Visualization/Pairs/price_memorybus.pdf, id=678, 597.23125pt x 420.57124pt>
+<Visualization/Pairs/price_memorybus.pdf, id=680, 597.23125pt x 420.57124pt>
 File: Visualization/Pairs/price_memorybus.pdf Graphic file (type pdf)
 <use Visualization/Pairs/price_memorybus.pdf>
-Package pdftex.def Info: Visualization/Pairs/price_memorybus.pdf  used on input line 684.
+Package pdftex.def Info: Visualization/Pairs/price_memorybus.pdf  used on input line 685.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
-<Visualization/Pairs/price_memoryspeed.pdf, id=679, 597.23125pt x 420.57124pt>
+<Visualization/Pairs/price_memoryspeed.pdf, id=681, 597.23125pt x 420.57124pt>
 File: Visualization/Pairs/price_memoryspeed.pdf Graphic file (type pdf)
 <use Visualization/Pairs/price_memoryspeed.pdf>
-Package pdftex.def Info: Visualization/Pairs/price_memoryspeed.pdf  used on input line 685.
+Package pdftex.def Info: Visualization/Pairs/price_memoryspeed.pdf  used on input line 686.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
-<Visualization/Pairs/price_releaseyear.pdf, id=680, 597.23125pt x 420.57124pt>
+<Visualization/Pairs/price_releaseyear.pdf, id=682, 597.23125pt x 420.57124pt>
 File: Visualization/Pairs/price_releaseyear.pdf Graphic file (type pdf)
 <use Visualization/Pairs/price_releaseyear.pdf>
-Package pdftex.def Info: Visualization/Pairs/price_releaseyear.pdf  used on input line 686.
+Package pdftex.def Info: Visualization/Pairs/price_releaseyear.pdf  used on input line 687.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
-<Visualization/Pairs/price_TMUs.pdf, id=681, 597.23125pt x 420.57124pt>
+<Visualization/Pairs/price_TMUs.pdf, id=683, 597.23125pt x 420.57124pt>
 File: Visualization/Pairs/price_TMUs.pdf Graphic file (type pdf)
 <use Visualization/Pairs/price_TMUs.pdf>
-Package pdftex.def Info: Visualization/Pairs/price_TMUs.pdf  used on input line 687.
+Package pdftex.def Info: Visualization/Pairs/price_TMUs.pdf  used on input line 688.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 690.
+Package pdftex.def Info: LogoBK.jpg  used on input line 691.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [20 <./Visualization/Boxplot/mem_bus.pdf> <./Visualization/Boxplot/mem_speed_bus.pdf>]
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 692.
+Package pdftex.def Info: LogoBK.jpg  used on input line 693.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [21 <./Visualization/Pairs/price_boostclock.pdf> <./Visualization/Pairs/price_corespeed.pdf> <./Visualization/Pairs/price_maxpower.pdf> <./Visualization/Pairs/price_memory.pdf> <./Visualization/Pairs/price_memorybus.pdf> <./Visualization/Pairs/price_memoryspeed.pdf> <./Visualization/Pairs/price_releaseyear.pdf> <./Visualization/Pairs/price_TMUs.pdf>]
 \openout4 = `main.pyg'.
 
  (_minted-main/301AD70F83B876A447A08CD4F55D5B8A19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<Visualization/Pairs/mem_price.pdf, id=752, 844.15375pt x 597.23125pt>
+<Visualization/Pairs/mem_price.pdf, id=754, 844.15375pt x 597.23125pt>
 File: Visualization/Pairs/mem_price.pdf Graphic file (type pdf)
 <use Visualization/Pairs/mem_price.pdf>
-Package pdftex.def Info: Visualization/Pairs/mem_price.pdf  used on input line 701.
+Package pdftex.def Info: Visualization/Pairs/mem_price.pdf  used on input line 702.
 (pdftex.def)             Requested size: 418.26314pt x 295.91743pt.
-<Visualization/Pairs/speed_power_price.pdf, id=753, 844.15375pt x 597.23125pt>
+<Visualization/Pairs/speed_power_price.pdf, id=755, 844.15375pt x 597.23125pt>
 File: Visualization/Pairs/speed_power_price.pdf Graphic file (type pdf)
 <use Visualization/Pairs/speed_power_price.pdf>
-Package pdftex.def Info: Visualization/Pairs/speed_power_price.pdf  used on input line 705.
+Package pdftex.def Info: Visualization/Pairs/speed_power_price.pdf  used on input line 706.
 (pdftex.def)             Requested size: 376.42651pt x 266.3184pt.
-<Visualization/Pairs/rendering_price.pdf, id=754, 844.15375pt x 597.23125pt>
+<Visualization/Pairs/rendering_price.pdf, id=756, 844.15375pt x 597.23125pt>
 File: Visualization/Pairs/rendering_price.pdf Graphic file (type pdf)
 <use Visualization/Pairs/rendering_price.pdf>
-Package pdftex.def Info: Visualization/Pairs/rendering_price.pdf  used on input line 709.
+Package pdftex.def Info: Visualization/Pairs/rendering_price.pdf  used on input line 710.
 (pdftex.def)             Requested size: 376.42651pt x 266.3184pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 710.
+Package pdftex.def Info: LogoBK.jpg  used on input line 711.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [22 <./Visualization/Pairs/mem_price.pdf>]
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 718.
+Package pdftex.def Info: LogoBK.jpg  used on input line 719.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [23 <./Visualization/Pairs/speed_power_price.pdf> <./Visualization/Pairs/rendering_price.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 728--731
+Underfull \hbox (badness 10000) in paragraph at lines 729--732
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--731
+Underfull \hbox (badness 10000) in paragraph at lines 729--732
 
  []
 
@@ -1546,21 +1546,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 728--731
 \openout4 = `main.pyg'.
 
  (_minted-main/61C3B9795179E56DADA93E8EAB4DE0EB19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Package mdframed Info: Not enough space on this page on input line 750.
+Package mdframed Info: Not enough space on this page on input line 751.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 750.
+Package pdftex.def Info: LogoBK.jpg  used on input line 751.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [24]
-Package mdframed Info: Not enough space on this page on input line 750.
-<Hypothesis/ANOVA/QQ_Plot.pdf, id=794, 597.23125pt x 420.57124pt>
+Package mdframed Info: Not enough space on this page on input line 751.
+<Hypothesis/ANOVA/QQ_Plot.pdf, id=796, 597.23125pt x 420.57124pt>
 File: Hypothesis/ANOVA/QQ_Plot.pdf Graphic file (type pdf)
 <use Hypothesis/ANOVA/QQ_Plot.pdf>
-Package pdftex.def Info: Hypothesis/ANOVA/QQ_Plot.pdf  used on input line 753.
+Package pdftex.def Info: Hypothesis/ANOVA/QQ_Plot.pdf  used on input line 754.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 764.
+Package pdftex.def Info: LogoBK.jpg  used on input line 765.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [25 <./Hypothesis/ANOVA/QQ_Plot.pdf>]
 \openout4 = `main.pyg'.
@@ -1568,20 +1568,20 @@ Package pdftex.def Info: LogoBK.jpg  used on input line 764.
  (_minted-main/9812B04DB28553DB11A0E15419C2257B19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 808.
+Package pdftex.def Info: LogoBK.jpg  used on input line 809.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [26]
-Underfull \hbox (badness 10000) in paragraph at lines 824--828
+Underfull \hbox (badness 10000) in paragraph at lines 825--829
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 824--828
+Underfull \hbox (badness 10000) in paragraph at lines 825--829
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 832--834
+Underfull \hbox (badness 10000) in paragraph at lines 833--835
 
  []
 
@@ -1590,19 +1590,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 832--834
 (_minted-main/42BBABD8317DF4194DA8D25006334A6D19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 848.
+Package pdftex.def Info: LogoBK.jpg  used on input line 849.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [27]
 \openout4 = `main.pyg'.
 
  (_minted-main/B85838008BB5F9D84842C7BE2FC1FEC219F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 883--885
+Underfull \hbox (badness 10000) in paragraph at lines 884--886
 
  []
 
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 888.
+Package pdftex.def Info: LogoBK.jpg  used on input line 889.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [28]
 \openout4 = `main.pyg'.
@@ -1616,67 +1616,67 @@ Package mdframed Warning: You got a bad break
 (mdframed)                because the last box will be empty
 (mdframed)                you have to change it manually
 (mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 929.
+(mdframed)                or something else on input line 930.
 
 Package mdframed Info: You first box width is to small
  mdframed fixed it
-(mdframed)              on input line 929.
+(mdframed)              on input line 930.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 929.
+Package pdftex.def Info: LogoBK.jpg  used on input line 930.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [29]
 
 Package mdframed Warning: You got a bad break
 (mdframed)                because the last split box is empty
-(mdframed)                You have to change the settings on input line 929.
+(mdframed)                You have to change the settings on input line 930.
 
 \openout4 = `main.pyg'.
 
 (_minted-main/6EED64AB29AB637851A443081B1A5C6019F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 977.
+Package pdftex.def Info: LogoBK.jpg  used on input line 978.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [30]
-Underfull \hbox (badness 10000) in paragraph at lines 982--985
+Underfull \hbox (badness 10000) in paragraph at lines 983--986
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 982--985
+Underfull \hbox (badness 10000) in paragraph at lines 983--986
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--993
+Underfull \hbox (badness 10000) in paragraph at lines 992--994
 
  []
 
 \openout4 = `main.pyg'.
 
 (_minted-main/98CEA1AD6CD7AE5B5A235CD7E5815B9919F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Package mdframed Info: Not enough space on this page on input line 1006.
+Package mdframed Info: Not enough space on this page on input line 1007.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1006.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1007.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [31]
-Package mdframed Info: Not enough space on this page on input line 1006.
+Package mdframed Info: Not enough space on this page on input line 1007.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1007--1009
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1010
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1019
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1020
 
  []
 
 \openout4 = `main.pyg'.
 
 (_minted-main/67752AA1D56B7C65B00A9FCEAF9C083219F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1032
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1033
 
  []
 
@@ -1686,28 +1686,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 1030--1032
 \openout4 = `main.pyg'.
 
  (_minted-main/76B682DD4A5A2850BC5AB5A5B160AD3B19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1051
 
  []
 
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1050.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1051.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 1053--1056
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1057
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1053--1056
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1057
 
  []
 
 \openout4 = `main.pyg'.
 
 (_minted-main/C8820F6FDD4200CE425F1DBEEA74F43019F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1073
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1074
 
  []
 
@@ -1716,17 +1716,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1068--1073
 (_minted-main/779D4FB08C24A849C4E75B71A8EA434D19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1077.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1078.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [33]
-Package mdframed Info: Not enough space on this page on input line 1077.
-<Hypothesis/Z-Test/Ztest-QQPlot.pdf, id=925, 597.23125pt x 420.57124pt>
+Package mdframed Info: Not enough space on this page on input line 1078.
+<Hypothesis/Z-Test/Ztest-QQPlot.pdf, id=927, 597.23125pt x 420.57124pt>
 File: Hypothesis/Z-Test/Ztest-QQPlot.pdf Graphic file (type pdf)
 <use Hypothesis/Z-Test/Ztest-QQPlot.pdf>
-Package pdftex.def Info: Hypothesis/Z-Test/Ztest-QQPlot.pdf  used on input line 1080.
+Package pdftex.def Info: Hypothesis/Z-Test/Ztest-QQPlot.pdf  used on input line 1081.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1085
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1086
 
  []
 
@@ -1735,89 +1735,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 1082--1085
 (_minted-main/46CB1F664D73C18065B46E0B57A6326919F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1103.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1104.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [34 <./Hypothesis/Z-Test/Ztest-QQPlot.pdf>]
 \openout4 = `main.pyg'.
 
  (_minted-main/CF7B11ED527C0A26634F2BD4A777E3C519F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 1128--1130
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1131
 
  []
 
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1143.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1144.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [35]
 \openout4 = `main.pyg'.
 
  (_minted-main/0CE2362EC124DDEE3F57B3C8020DB91519F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Package mdframed Info: Not enough space on this page on input line 1186.
+Package mdframed Info: Not enough space on this page on input line 1187.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1186.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1187.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [36]
-Package mdframed Info: Not enough space on this page on input line 1186.
-LaTeX Font Info:    Trying to load font information for OML+lmr on input line 1194.
+Package mdframed Info: Not enough space on this page on input line 1187.
+LaTeX Font Info:    Trying to load font information for OML+lmr on input line 1195.
  (C:\Program Files\MiKTeX\tex/latex/lm\omllmr.fd
 File: omllmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <10> not available
-(Font)              Font shape `OML/lmm/m/it' tried instead on input line 1194.
+(Font)              Font shape `OML/lmm/m/it' tried instead on input line 1195.
 \openout4 = `main.pyg'.
 
  (_minted-main/A04BEEE5C998CE2B4B91CFB78BF9730419F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 1220--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1220--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1220--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1224
 
  []
 
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1229.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1230.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [37]
 \openout4 = `main.pyg'.
 
  (_minted-main/7E204CB1F0DB5CEB83C34B8DB87CCF2C19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Package mdframed Info: Not enough space on this page on input line 1271.
+Package mdframed Info: Not enough space on this page on input line 1272.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1271.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1272.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [38]
-Package mdframed Info: Not enough space on this page on input line 1271.
+Package mdframed Info: Not enough space on this page on input line 1272.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1318.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1319.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [39]
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1363.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1364.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [40]
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1401.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1402.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [41]
 LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 1424.
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 1425.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1443.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1444.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [42]
 \openout4 = `main.pyg'.
@@ -1828,68 +1828,68 @@ Package pdftex.def Info: LogoBK.jpg  used on input line 1443.
  (_minted-main/3A305402BCB977AB84FA11129EEB5FD119F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1488.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1489.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [43]
-Package mdframed Info: Not enough space on this page on input line 1488.
+Package mdframed Info: Not enough space on this page on input line 1489.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1516--1521
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1516--1521
+Underfull \hbox (badness 10000) in paragraph at lines 1517--1522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1516--1521
+Underfull \hbox (badness 10000) in paragraph at lines 1517--1522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1516--1521
+Underfull \hbox (badness 10000) in paragraph at lines 1517--1522
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1517--1522
 
  []
 
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1521.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1522.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [44]
 \openout4 = `main.pyg'.
 
  (_minted-main/4684D9D4DBC096BCCCAF9D7A6DD7821619F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1540
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1540
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1540
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1547--1549
+Underfull \hbox (badness 10000) in paragraph at lines 1548--1550
 
  []
 
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1554.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1555.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 1562--1565
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1566
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1562--1565
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1566
 
  []
 
@@ -1898,7 +1898,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1562--1565
 (_minted-main/B3EBD1644F7A99B5E4BB8A84330F51AD19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1592.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1593.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [46]
 \openout4 = `main.pyg'.
@@ -1907,141 +1907,141 @@ Package pdftex.def Info: LogoBK.jpg  used on input line 1592.
 \openout4 = `main.pyg'.
 
  (_minted-main/51725B6969056E07A4DF76CEFC36762B19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<LRM/Rplot.pdf, id=1109, 597.23125pt x 420.57124pt>
+<LRM/Rplot.pdf, id=1111, 597.23125pt x 420.57124pt>
 File: LRM/Rplot.pdf Graphic file (type pdf)
 <use LRM/Rplot.pdf>
-Package pdftex.def Info: LRM/Rplot.pdf  used on input line 1618.
+Package pdftex.def Info: LRM/Rplot.pdf  used on input line 1619.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1621.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1622.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [47 <./LRM/Rplot.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1622--1624
+Underfull \hbox (badness 10000) in paragraph at lines 1623--1625
 
  []
 
 \openout4 = `main.pyg'.
 
 (_minted-main/7B382E0E82784E62271CEF3CDFB706C219F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<LRM/Rplot2.pdf, id=1133, 597.23125pt x 420.57124pt>
+<LRM/Rplot2.pdf, id=1135, 597.23125pt x 420.57124pt>
 File: LRM/Rplot2.pdf Graphic file (type pdf)
 <use LRM/Rplot2.pdf>
-Package pdftex.def Info: LRM/Rplot2.pdf  used on input line 1633.
+Package pdftex.def Info: LRM/Rplot2.pdf  used on input line 1634.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1637.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1638.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [48 <./LRM/Rplot2.pdf>]
 \openout4 = `main.pyg'.
 
  (_minted-main/10C9F1E1B4A87072973AC937EA252ABD19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<LRM/Rplot10.pdf, id=1147, 844.15375pt x 597.23125pt>
+<LRM/Rplot10.pdf, id=1149, 844.15375pt x 597.23125pt>
 File: LRM/Rplot10.pdf Graphic file (type pdf)
 <use LRM/Rplot10.pdf>
-Package pdftex.def Info: LRM/Rplot10.pdf  used on input line 1661.
+Package pdftex.def Info: LRM/Rplot10.pdf  used on input line 1662.
 (pdftex.def)             Requested size: 418.26314pt x 295.91743pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1663.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1664.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [49]
 \openout4 = `main.pyg'.
 
  (_minted-main/D61FF973F71581CA8727BD419738FB8019F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<LRM/Rplot3.pdf, id=1153, 922.44624pt x 393.47pt>
+<LRM/Rplot3.pdf, id=1155, 922.44624pt x 393.47pt>
 File: LRM/Rplot3.pdf Graphic file (type pdf)
 <use LRM/Rplot3.pdf>
-Package pdftex.def Info: LRM/Rplot3.pdf  used on input line 1679.
+Package pdftex.def Info: LRM/Rplot3.pdf  used on input line 1680.
 (pdftex.def)             Requested size: 418.24986pt x 178.40472pt.
-<LRM/Rplot4.pdf, id=1154, 922.44624pt x 393.47pt>
+<LRM/Rplot4.pdf, id=1156, 922.44624pt x 393.47pt>
 File: LRM/Rplot4.pdf Graphic file (type pdf)
 <use LRM/Rplot4.pdf>
-Package pdftex.def Info: LRM/Rplot4.pdf  used on input line 1683.
+Package pdftex.def Info: LRM/Rplot4.pdf  used on input line 1684.
 (pdftex.def)             Requested size: 418.24986pt x 178.40472pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1684.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1685.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [50 <./LRM/Rplot10.pdf>]
-<LRM/Rplot5.pdf, id=1166, 922.44624pt x 393.47pt>
+<LRM/Rplot5.pdf, id=1168, 922.44624pt x 393.47pt>
 File: LRM/Rplot5.pdf Graphic file (type pdf)
 <use LRM/Rplot5.pdf>
-Package pdftex.def Info: LRM/Rplot5.pdf  used on input line 1687.
+Package pdftex.def Info: LRM/Rplot5.pdf  used on input line 1688.
 (pdftex.def)             Requested size: 418.24986pt x 178.40472pt.
-<LRM/Rplot6.pdf, id=1167, 922.44624pt x 393.47pt>
+<LRM/Rplot6.pdf, id=1169, 922.44624pt x 393.47pt>
 File: LRM/Rplot6.pdf Graphic file (type pdf)
 <use LRM/Rplot6.pdf>
-Package pdftex.def Info: LRM/Rplot6.pdf  used on input line 1691.
+Package pdftex.def Info: LRM/Rplot6.pdf  used on input line 1692.
 (pdftex.def)             Requested size: 418.24986pt x 178.40472pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1693.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1694.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [51 <./LRM/Rplot3.pdf> <./LRM/Rplot4.pdf> <./LRM/Rplot5.pdf>]
 \openout4 = `main.pyg'.
 
  (_minted-main/4FDAEDB3F1B6ADE8C87F760ED5669BE419F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<LRM/Rplot7.pdf, id=1191, 597.23125pt x 420.57124pt>
+<LRM/Rplot7.pdf, id=1193, 597.23125pt x 420.57124pt>
 File: LRM/Rplot7.pdf Graphic file (type pdf)
 <use LRM/Rplot7.pdf>
-Package pdftex.def Info: LRM/Rplot7.pdf  used on input line 1705.
+Package pdftex.def Info: LRM/Rplot7.pdf  used on input line 1706.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1707.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1708.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [52 <./LRM/Rplot6.pdf>]
 \openout4 = `main.pyg'.
 
  (_minted-main/492B059CF4C437C2A867A62ECAFA8B7419F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<LRM/Rplot8.pdf, id=1203, 597.23125pt x 420.57124pt>
+<LRM/Rplot8.pdf, id=1205, 597.23125pt x 420.57124pt>
 File: LRM/Rplot8.pdf Graphic file (type pdf)
 <use LRM/Rplot8.pdf>
-Package pdftex.def Info: LRM/Rplot8.pdf  used on input line 1717.
+Package pdftex.def Info: LRM/Rplot8.pdf  used on input line 1718.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1719.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1720.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [53 <./LRM/Rplot7.pdf>]
 \openout4 = `main.pyg'.
 
  (_minted-main/199EA55C296972577195E23E7A205A0819F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<LRM/Rplot9.pdf, id=1219, 597.23125pt x 420.57124pt>
+<LRM/Rplot9.pdf, id=1221, 597.23125pt x 420.57124pt>
 File: LRM/Rplot9.pdf Graphic file (type pdf)
 <use LRM/Rplot9.pdf>
-Package pdftex.def Info: LRM/Rplot9.pdf  used on input line 1729.
+Package pdftex.def Info: LRM/Rplot9.pdf  used on input line 1730.
 (pdftex.def)             Requested size: 418.2595pt x 294.53905pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1731.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1732.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [54 <./LRM/Rplot8.pdf>]
-<EM/Moore_law.png, id=1236, 3144.74875pt x 2326.6925pt>
+<EM/Moore_law.png, id=1238, 3144.74875pt x 2326.6925pt>
 File: EM/Moore_law.png Graphic file (type png)
 <use EM/Moore_law.png>
-Package pdftex.def Info: EM/Moore_law.png  used on input line 1758.
+Package pdftex.def Info: EM/Moore_law.png  used on input line 1759.
 (pdftex.def)             Requested size: 418.23674pt x 309.43912pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1753--1759
+Underfull \hbox (badness 10000) in paragraph at lines 1754--1760
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1753--1759
+Underfull \hbox (badness 10000) in paragraph at lines 1754--1760
 
  []
 
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1759.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1760.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [55 <./LRM/Rplot9.pdf>]
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1762.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1763.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [56 <./EM/Moore_law.png (PNG copy)>]
 \openout4 = `main.pyg'.
@@ -2052,7 +2052,7 @@ Package pdftex.def Info: LogoBK.jpg  used on input line 1762.
  (_minted-main/D6142A6C0E960956C9648F25A032E47319F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1812.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1813.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [57]
 \openout4 = `main.pyg'.
@@ -2064,41 +2064,41 @@ Package pdftex.def Info: LogoBK.jpg  used on input line 1812.
 \openout4 = `main.pyg'.
 
  (_minted-main/2F7E14E7FF36D4499982EE3D785A1A6F19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Package mdframed Info: Not enough space on this page on input line 1866.
+Package mdframed Info: Not enough space on this page on input line 1867.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1866.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1867.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [58]
-Package mdframed Info: Not enough space on this page on input line 1866.
+Package mdframed Info: Not enough space on this page on input line 1867.
 \openout4 = `main.pyg'.
 
  (_minted-main/0CB93058EB53E50AC88FC67043749B6F19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<EM/compared_graph.pdf, id=1272, 844.15375pt x 597.23125pt>
+<EM/compared_graph.pdf, id=1274, 844.15375pt x 597.23125pt>
 File: EM/compared_graph.pdf Graphic file (type pdf)
 <use EM/compared_graph.pdf>
-Package pdftex.def Info: EM/compared_graph.pdf  used on input line 1885.
+Package pdftex.def Info: EM/compared_graph.pdf  used on input line 1886.
 (pdftex.def)             Requested size: 418.26314pt x 295.91743pt.
-<EM/exp_graph.pdf, id=1273, 844.15375pt x 597.23125pt>
+<EM/exp_graph.pdf, id=1275, 844.15375pt x 597.23125pt>
 File: EM/exp_graph.pdf Graphic file (type pdf)
 <use EM/exp_graph.pdf>
-Package pdftex.def Info: EM/exp_graph.pdf  used on input line 1890.
+Package pdftex.def Info: EM/exp_graph.pdf  used on input line 1891.
 (pdftex.def)             Requested size: 418.26314pt x 295.91743pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1891.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1892.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [59 <./EM/compared_graph.pdf>]
 \openout4 = `main.pyg'.
 
  (_minted-main/2FE2BBF91FE64C3E7B1D3D67C1DD10F219F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Package mdframed Info: Not enough space on this page on input line 1911.
+Package mdframed Info: Not enough space on this page on input line 1912.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1911.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1912.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [60 <./EM/exp_graph.pdf>]
-Package mdframed Info: Not enough space on this page on input line 1911.
+Package mdframed Info: Not enough space on this page on input line 1912.
 \openout4 = `main.pyg'.
 
  (_minted-main/08ADC3FB8E4D3BF61A734C94C07C9F3719F985447EC54E8B82C17FA4B4D93AE9.pygtex)
@@ -2110,18 +2110,18 @@ Package mdframed Info: Not enough space on this page on input line 1911.
  (_minted-main/00D1612BB2B28F77C2D6F643CE5F44CB19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 1968.
+Package pdftex.def Info: LogoBK.jpg  used on input line 1969.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [61]
 \openout4 = `main.pyg'.
 
  (_minted-main/5393D5D2E2205B2018B9748A4011526419F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Overfull \hbox (1.77528pt too wide) in paragraph at lines 1997--1999
+Overfull \hbox (1.77528pt too wide) in paragraph at lines 1998--2000
 \OT1/lmr/m/n/10 dent vari-ables are per-fectly collinear.Indeed, the er-ror \OT1/lmtt/m/n/10 not defined because of singularities
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1997--1999
+Underfull \hbox (badness 10000) in paragraph at lines 1998--2000
 
  []
 
@@ -2136,12 +2136,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1997--1999
  (_minted-main/0B7019BA32B3E68C0A1CF91130DC733B19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 2021.
+Package pdftex.def Info: LogoBK.jpg  used on input line 2022.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [62]
-Package mdframed Info: Not enough space on this page on input line 2021.
+Package mdframed Info: Not enough space on this page on input line 2022.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2022--2024
+Underfull \hbox (badness 10000) in paragraph at lines 2023--2025
 
  []
 
@@ -2154,36 +2154,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 2022--2024
 \openout4 = `main.pyg'.
 
  (_minted-main/964A97BC7E944F2AE78E74283BF3A56519F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<EM/poly.pdf, id=1356, 844.15375pt x 597.23125pt>
+<EM/poly.pdf, id=1358, 844.15375pt x 597.23125pt>
 File: EM/poly.pdf Graphic file (type pdf)
 <use EM/poly.pdf>
-Package pdftex.def Info: EM/poly.pdf  used on input line 2054.
+Package pdftex.def Info: EM/poly.pdf  used on input line 2055.
 (pdftex.def)             Requested size: 418.26314pt x 295.91743pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 2056.
+Package pdftex.def Info: LogoBK.jpg  used on input line 2057.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [63]
-Underfull \hbox (badness 10000) in paragraph at lines 2056--2058
+Underfull \hbox (badness 10000) in paragraph at lines 2057--2059
 
  []
 
 \openout4 = `main.pyg'.
 
 (_minted-main/7C4760BC43E523FE4C7796783C37B58919F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-<EM/exp_poly.pdf, id=1363, 844.15375pt x 597.23125pt>
+<EM/exp_poly.pdf, id=1365, 844.15375pt x 597.23125pt>
 File: EM/exp_poly.pdf Graphic file (type pdf)
 <use EM/exp_poly.pdf>
-Package pdftex.def Info: EM/exp_poly.pdf  used on input line 2075.
+Package pdftex.def Info: EM/exp_poly.pdf  used on input line 2076.
 (pdftex.def)             Requested size: 418.26314pt x 295.91743pt.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 2078.
+Package pdftex.def Info: LogoBK.jpg  used on input line 2079.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [64 <./EM/poly.pdf>]
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 2101.
+Package pdftex.def Info: LogoBK.jpg  used on input line 2102.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [65 <./EM/exp_poly.pdf>]
 \openout4 = `main.pyg'.
@@ -2191,13 +2191,13 @@ Package pdftex.def Info: LogoBK.jpg  used on input line 2101.
  (_minted-main/BE19CD0029F9D14D225D2A96DCAB388819F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 2150.
+Package pdftex.def Info: LogoBK.jpg  used on input line 2151.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [66]
-<Predict/1.png, id=1392, 1044.15094pt x 358.33875pt>
+<Predict/1.png, id=1394, 1044.15094pt x 358.33875pt>
 File: Predict/1.png Graphic file (type png)
 <use Predict/1.png>
-Package pdftex.def Info: Predict/1.png  used on input line 2153.
+Package pdftex.def Info: Predict/1.png  used on input line 2154.
 (pdftex.def)             Requested size: 418.2584pt x 143.54073pt.
 \openout4 = `main.pyg'.
 
@@ -2205,44 +2205,44 @@ Package pdftex.def Info: Predict/1.png  used on input line 2153.
 \openout4 = `main.pyg'.
 
  (_minted-main/5A4F5C5792A48809B0EFB15B7793395A19F985447EC54E8B82C17FA4B4D93AE9.pygtex)
-Package mdframed Info: Not enough space on this page on input line 2196.
+Package mdframed Info: Not enough space on this page on input line 2197.
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 2196.
+Package pdftex.def Info: LogoBK.jpg  used on input line 2197.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [67 <./Predict/1.png>]
-Package mdframed Info: Not enough space on this page on input line 2196.
+Package mdframed Info: Not enough space on this page on input line 2197.
 \openout4 = `main.pyg'.
 
  (_minted-main/FB2F56FC01A811633533F31001093A8219F985447EC54E8B82C17FA4B4D93AE9.pygtex)
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 2236.
+Package pdftex.def Info: LogoBK.jpg  used on input line 2237.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
  [68]
-Underfull \hbox (badness 3168) in paragraph at lines 2249--2250
+Underfull \hbox (badness 3168) in paragraph at lines 2250--2251
 []\OT1/lmr/m/n/10 John Verzani, \OT1/lmr/m/it/10 sim-pleR { Us-ing R for In-tro-duc-tory Statis-tics\OT1/lmr/m/n/10 . [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 2250--2251
+Underfull \hbox (badness 5832) in paragraph at lines 2251--2252
 []\OT1/lmr/m/it/10 Computer Parts (CPUs and GPUs)\OT1/lmr/m/n/10 , ilis-sek, Sep. 9, 2017. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 2252--2253
+Underfull \hbox (badness 1142) in paragraph at lines 2253--2254
 []\OT1/lmr/m/n/10 K. S. Htoon, \OT1/lmr/m/it/10 Log Trans-for-ma-tion: Pur-pose and In-ter-pre-ta-tion\OT1/lmr/m/n/10 , Feb. 29, 2020. Ac-
  []
 
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 2256.
+Package pdftex.def Info: LogoBK.jpg  used on input line 2257.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [69] 
 AED: lastpage setting LastPage
 File: LogoBK.jpg Graphic file (type jpg)
 <use LogoBK.jpg>
-Package pdftex.def Info: LogoBK.jpg  used on input line 2293.
+Package pdftex.def Info: LogoBK.jpg  used on input line 2300.
 (pdftex.def)             Requested size: 22.75812pt x 22.75842pt.
 [70] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -2259,9 +2259,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,25n,89p,1231b,1098s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (71 pages, 6598692 bytes).
+Output written on main.pdf (71 pages, 6599267 bytes).
 PDF statistics:
- 1647 PDF objects out of 1728 (max. 8388607)
+ 1649 PDF objects out of 1728 (max. 8388607)
  505 named destinations out of 1000 (max. 500000)
  908 words of extra memory for PDF output out of 10000 (max. 10000000)
 
